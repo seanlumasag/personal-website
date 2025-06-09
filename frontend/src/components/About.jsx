@@ -1,7 +1,14 @@
+import headshot from "../assets/headshot.jpg";
+
 function About() {
   return (
     <div id = "about">
-      <h1>About</h1>
+      <img src={headshot} id="headshot2" />
+      <div id="about-title-text-button">
+        <p id="about-title">About</p>
+        <p id="about-text">I am a current student at Rutgers University</p>
+        <a href="#experience">Learn More</a>
+      </div>
     </div>
   );
 }
