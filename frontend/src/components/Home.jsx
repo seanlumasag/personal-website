@@ -2,19 +2,21 @@ import headshot from "../assets/headshot.jpg";
 
 function Home() {
   return (
-    <div id="home">
-      <div id="intro">
-        <p id="p1">Hello,</p>
-        <p id="p2">
-          I'm <span id="name">Sean</span>
+    <div className="home">
+      <div className="intro">
+        <p className="p1">Hello,</p>
+        <p className="p2">
+          I'm <span className="name">Sean</span>
         </p>
-        <p id="p3">Software Engineer</p>
-        <div id="intro-buttons">
+        <p className="p3">Software Engineer</p>
+        <div className="intro-buttons">
           <a href="">Download Resume</a>
           <a href="#footer">Contact Info</a>
         </div>
       </div>
-      <img src={headshot} id="headshot" />
+      <div className="headshot-container">
+        <img src={headshot} className="headshot" />
+      </div>
     </div>
   );
 }
