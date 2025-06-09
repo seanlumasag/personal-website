@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navigation {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: white;
+  padding: 2rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navigation #name {
+  font-size: 2rem;
+}
+
+#navigation ul {
+  display: flex;
+  list-style: none;
+}
+
+#navigation li {
+  margin-left: 3rem;
+}
+
+#navigation a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#home {
+  border: 1px solid red;
+  height: 100vh;
+}
+
+#about {
+  border: 1px solid red;
+
+  height: 400px;
+}
+
+#experience {
+  border: 1px solid red;
+
+  height: 400px;
+}
+
+#projects {
+  border: 1px solid red;
+
+  height: 400px;
+}
+
+#footer {
+  border: 1px solid red;
+
+  height: 400px;
+}

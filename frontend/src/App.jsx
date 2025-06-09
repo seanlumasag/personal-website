@@ -1,16 +1,22 @@
-import { useState } from 'react'
-import Home from './components/Home'
-import About from './components/About'
-import Experience from './components/Experience'
-import Contact from './components/Contact'
+import { useState } from "react";
+import Navigation from "./components/Navigation";
+import Home from "./components/Home";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-      <>
-        <h1>Hello World!</h1>
-        <Home />
-      </> 
-  )
+    <>
+      <Navigation />
+      <Home />
+      <About />
+      <Experience />
+      <Projects />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
