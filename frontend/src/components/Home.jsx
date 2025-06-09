@@ -2,7 +2,7 @@ import headshot from "../assets/headshot.jpg";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="intro">
         <p className="p1">Hello,</p>
         <p className="p2">
