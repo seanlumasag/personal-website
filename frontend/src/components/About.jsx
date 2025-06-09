@@ -7,7 +7,7 @@ function About() {
       <div id="about-title-text-button">
         <p id="about-title">About</p>
         <p id="about-text">I am a current student at Rutgers University</p>
-        <a href="#experience">Learn More</a>
+        <a href="#experience">Read More</a>
       </div>
     </div>
   );

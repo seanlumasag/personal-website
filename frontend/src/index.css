@@ -45,8 +45,19 @@
 }
 
 #home #intro {
+  display: flex;
+  flex-direction: column;
   border: 1px solid red;
   width: 30rem;
+  justify-content: center;
+}
+
+#home p {
+  font-size: 3rem;
+}
+
+#home #name {
+  color: gray;
 }
 
 #home a {
@@ -67,11 +78,23 @@
   border: 1px solid red;
   display: flex;
   height: 100vh;
-
+  justify-content: center;
 }
 
 #about #headshot2 {
-  max-height: 100%;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 50%;
+}
+
+#about-title-text-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about #about-title {
+  font-size: 3rem;
 }
 
 #about a {
