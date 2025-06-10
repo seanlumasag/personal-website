@@ -6,4 +6,12 @@ function Experience() {
   );
 }
 
+function ExperienceCard() {
+  return (
+    <div className="experience-card">
+      <h1>Experience</h1>
+    </div>
+  );
+}
+
 export default Experience;
