@@ -18,7 +18,7 @@
   left: 0;
   right: 0;
   position: fixed;
-  backdrop-filter: blur(2rem);
+  backdrop-filter: blur(3rem);
   background-color: rgb(255, 255, 255, 0.5);
   padding: 2.5rem 10rem;
   display: flex;
@@ -51,6 +51,7 @@
   height: 100vh;
   align-items: center;
   padding: 10rem;
+  gap: 6rem;
 }
 
 .home .intro,
@@ -59,23 +60,18 @@
   flex: 1 1 50%;
 }
 
-.home .intro {
-  margin: 3rem;
-}
-
 .home .intro-buttons {
   margin-top: 3rem;
 }
 
 .home .headshot-container {
-  margin: 3rem;
   display: flex;
   justify-content: right;
   align-items: center;
 }
 
 .home h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin-bottom: 0.5rem;
 }
 
@@ -101,6 +97,7 @@
   justify-content: center;
   align-items: center;
   padding: 10rem;
+  gap: 6rem;
 }
 
 .about .info-container,
@@ -113,7 +110,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 3rem;
 }
 
 .about-card {
@@ -133,7 +129,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 3rem;
 }
 
 .about-title-text-button h1 {
@@ -160,33 +155,47 @@
   border: 1px solid white;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   align-items: center;
   padding: 10rem;
 }
 
-.experience h1 {
+.experience .experience-title {
   font-size: 4.25rem;
 }
 
 .experience .card-container {
-  display: flex;
-  flex-direction: column;
+  border: 1px solid white;
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3rem;
   margin-top: 3rem;
 }
+
 .experience-card {
   border: 1px solid black;
   display: flex;
-  margin: 2rem 0;
-  padding: 2rem 2.5rem;
+  flex-direction: column;
+  padding: 3rem;
   border-radius: 1rem;
-  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.experience-card .logo-container {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+.experience-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.experience-card h1{
+    font-size: 1.25rem;
 }
 
-.experience-card h1 {
-  font-size: 1.5rem;
-}
 /**********************************************************************************************************/
 .projects {
   border: 1px solid white;
