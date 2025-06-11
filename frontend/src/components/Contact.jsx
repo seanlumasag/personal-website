@@ -1,4 +1,6 @@
 import headshot from "../assets/headshot.jpg";
+import linkedinIcon from "../assets/linkedin-icon.webp"
+import githubIcon from "../assets/github-icon.png"
 
 function Contact() {
   return (
@@ -6,12 +8,12 @@ function Contact() {
       <ul className="icons">
         <li>
           <a href="https://github.com/seanlumasag" target="_blank">
-            <img src={headshot} alt="GitHub" />
+            <img src={githubIcon} alt="GitHub" />
           </a>
         </li>
         <li>
           <a href="https://linkedin.com/in/seanlumasag" target="_blank">
-            <img src={headshot} alt="LinkedIn" />
+            <img src={linkedinIcon} alt="LinkedIn" />
           </a>
         </li>
       </ul>
@@ -32,7 +34,7 @@ function Contact() {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <p>© 2025 Sean Lumasag. All rights reserved.</p>
+      <p>Copyright © 2025 Sean Lumasag | All rights reserved</p>
     </footer>
   );
 }
