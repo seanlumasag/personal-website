@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Navigation />
       <Home />
       <About />
@@ -17,7 +17,7 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
-    </>
+    </div>
   );
 }
 

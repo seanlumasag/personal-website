@@ -3,14 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+.app {
+  background-color: white;
+  color: black;
+}
+
+.name {
+  color: black;
+}
+
 /**********************************************************************************************************/
 .navigation {
   top: 0;
   left: 0;
   right: 0;
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(1rem);
+  backdrop-filter: blur(2rem);
+  background-color: rgb(255, 255, 255, 0.5);
   padding: 2.5rem 10rem;
   display: flex;
   justify-content: space-between;
@@ -51,26 +60,23 @@
 }
 
 .home .intro {
-  margin-right: 3rem;
+  margin: 3rem;
+}
+
+.home .intro-buttons {
+  margin-top: 3rem;
 }
 
 .home .headshot-container {
-  margin-left: 3rem;
+  margin: 3rem;
   display: flex;
   justify-content: right;
   align-items: center;
 }
 
 .home h1 {
-  font-size: 4.1rem;
-}
-
-.home .name {
-  color: gray;
-}
-
-.home .intro-buttons {
-  margin-top: 2rem;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .home a {
@@ -93,45 +99,54 @@
   display: flex;
   height: 100vh;
   justify-content: center;
+  align-items: center;
   padding: 10rem;
 }
 
-.about .headshot2-container,
+.about .info-container,
 .about .about-title-text-button {
   border: 1px solid white;
   flex: 1 1 50%;
 }
 
-.about .headshot2-container {
+.about .info-container {
   display: flex;
-  justify-content: left;
-  align-items: center;
-  margin-right: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 3rem;
 }
 
-.about .headshot2 {
-  width: 100%;
-  border-radius: 50%;
+.about-card {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+
+.about-card p {
+  font-size: 1.5rem;
 }
 
 .about-title-text-button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 3rem;
+  margin: 0 3rem;
 }
 
-.about h1 {
+.about-title-text-button h1 {
   font-size: 4.25rem;
 }
 
-.about p {
+.about-title-text-button p {
   font-size: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
 
-.about a {
+.about-title-text-button a {
   color: black;
   text-decoration: none;
   font-size: 1.5rem;

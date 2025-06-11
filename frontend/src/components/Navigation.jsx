@@ -1,7 +1,7 @@
 function Nav() {
   return (
     <nav className="navigation" id="navigation">
-      <a href="#home" className="name">Sean Lumasag</a>
+      <a href="#home" className="name">Sean <span className="name">Lumasag</span></a>
       <ul>
         <li>
           <a href="#about">About</a>
