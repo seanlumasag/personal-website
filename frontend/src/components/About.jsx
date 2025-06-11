@@ -7,13 +7,13 @@ function About() {
         <img src={headshot} className="headshot2" />
       </div>
       <div className="about-title-text-button">
-        <p className="about-title">About</p>
-        <p className="about-text">
+        <h1>About Me</h1>
+        <p>
           Computer Science and Data Science student at Rutgers University–New Brunswick with a strong interest in software engineering, machine learning, and artificial intelligence. 
         </p>
         <div className="about-button">
           <a href="#experience">
-            Read More
+            Learn More
           </a>
         </div>
       </div>
