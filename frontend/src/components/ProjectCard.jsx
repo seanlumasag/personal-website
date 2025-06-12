@@ -1,8 +1,12 @@
-function ProjectCard({ projectTitle, projectTech }) {
+function ProjectCard({ img, link, projectTitle }) {
   return (
     <div className="projects-card">
+      <div className="logo-container">
+        <a href={link} target="_blank">
+          <img src={img} alt="" />
+        </a>
+      </div>
       <h1>{projectTitle}</h1>
-      <h1>{projectTech}</h1>
     </div>
   );
 }

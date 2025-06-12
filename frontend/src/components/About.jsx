@@ -4,10 +4,6 @@ function About() {
   return (
     <div className="about" id="about">
       <div className="info-container">
-        <AboutCard title="Education" text="Rutgers University" />
-        <AboutCard title="Major" text="Computer Science" />
-        <AboutCard title="Expected Graduation" text="2027" />
-        <AboutCard title="Location" text="New Jersey, USA" />
         <div className="tech-stack about-card">
           <p>Tech Stack</p>
           <div className="tech">
@@ -16,6 +12,11 @@ function About() {
             <p>Java</p>
           </div>
         </div>
+        <AboutCard title="Education" text="Rutgers University" />
+        <AboutCard title="Major" text="Computer Science" />
+        <AboutCard title="Expected Graduation" text="2027" />
+        <AboutCard title="Location" text="New Jersey, USA" />
+        
       </div>
       <div className="about-title-text-button">
         <h1>About Me</h1>
