@@ -93,7 +93,7 @@
 .about {
   border: 1px solid white;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
   padding: 10rem;
@@ -119,10 +119,24 @@
   padding: 2rem 2.5rem;
   border-radius: 1rem;
   margin: 1rem 0;
+  align-items: center;
 }
 
 .about-card p {
   font-size: 1.5rem;
+}  
+
+.about-card .tech{
+    display: flex;
+    align-items: center;
+}
+
+.about-card .tech p{
+    border: 1px solid black;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: -2rem 0 -2rem 0.5rem;
 }
 
 .about-title-text-button {
