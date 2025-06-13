@@ -26,7 +26,7 @@ function About() {
           learning, and artificial intelligence.
         </p>
         <div className="about-button">
-          <a href="#experience">Learn More</a>
+          <a href="#experience" className="cta-button">Learn More</a>
         </div>
       </div>
     </div>

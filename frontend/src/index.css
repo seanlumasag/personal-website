@@ -5,7 +5,6 @@
 }
 .app {
   background-color: white;
-  color: black;
 }
 
 .name {
@@ -18,8 +17,9 @@ p:empty {
 
 .section {
   display: flex;
-  padding: 10rem;
-  width: 100%;
+  padding-top: 10rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
   align-items: center;
   justify-content: center;
   gap: 3rem;
@@ -36,6 +36,18 @@ p:empty {
 
 h1 {
   font-size: 4rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.cta-button {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
 }
 
 /**********************************************************************************************************/
@@ -73,6 +85,7 @@ h1 {
 .home {
   height: 100vh;
   gap: 6rem;
+  padding-bottom: 10rem;
 }
 
 .home .intro,
@@ -95,15 +108,6 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-.home a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.5vw;
-  border: 0.1rem solid black;
-  border-radius: 1rem;
-  padding: 1rem 1.5rem;
-}
-
 .home .headshot {
   width: 100%;
   border-radius: 50%;
@@ -111,7 +115,7 @@ h1 {
 
 /**********************************************************************************************************/
 .about {
-  min-height: 100vh;
+  min-height: 0;
   gap: 6rem;
 }
 
@@ -125,11 +129,11 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 2rem;
 }
 
 .about-card {
   justify-content: space-between;
-  margin: 1rem 0;
 }
 
 .about-card p {
@@ -161,15 +165,6 @@ h1 {
   margin-bottom: 3rem;
 }
 
-.about-title-text-button a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.5rem;
-  border: 1px solid black;
-  border-radius: 1rem;
-  padding: 1rem 1.5rem;
-  margin-top: 1.5rem;
-}
 /**********************************************************************************************************/
 .experience {
   flex-direction: column;

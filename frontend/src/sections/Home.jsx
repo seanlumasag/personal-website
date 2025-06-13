@@ -10,7 +10,7 @@ function Home() {
         </h1>
         <h1>Software Engineer</h1>
         <div className="intro-buttons">
-          <a href="#contact">Contact</a>
+          <a href="#contact" className="cta-button">Contact</a>
         </div>
       </div>
       <div className="headshot-container">
