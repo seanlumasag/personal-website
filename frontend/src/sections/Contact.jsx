@@ -20,7 +20,7 @@ function Contact() {
         </li>
       </ul>
       */}
-      <ul className="nav">
+      <ul>
         <li>
           <a href="#about">About</a>
         </li>
