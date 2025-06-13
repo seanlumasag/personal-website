@@ -1,11 +1,11 @@
-import ExperienceCard from "./ExperienceCard";
+import ExperienceCard from "../components/ExperienceCard";
 import dataStorytellingImg from "../assets/data-storytelling.png";
 import hadoopExpressImg from "../assets/hadoop-express.png";
 import tagOnlineImg from "../assets/tag-online.png";
 
 function Experience() {
   return (
-    <div className="experience" id="experience">
+    <div className="experience section" id="experience">
       <h1 className="experience-title">Experience</h1>
       <div className="card-container">
         <ExperienceCard

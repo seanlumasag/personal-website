@@ -2,7 +2,7 @@ import dataStorytellingImg from "../assets/data-storytelling.png";
 
 function ExperienceCard({ img, link, experienceTitle, t1, t2, t3, desc }) {
   return (
-    <div className="experience-card">
+    <div className="card experience-card">
       <div className="logo-container">
         <a href={link} target="_blank">
           <img src={img} alt="" />

@@ -2,9 +2,9 @@ import AboutCard from "../components/AboutCard.jsx";
 
 function About() {
   return (
-    <div className="about" id="about">
+    <div className="about section" id="about">
       <div className="info-container">
-        <div className="tech-stack about-card">
+        <div className="card tech-stack about-card">
           <p>Tech Stack</p>
           <div className="tech">
             <p>React</p>

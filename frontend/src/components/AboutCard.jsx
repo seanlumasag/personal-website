@@ -1,6 +1,6 @@
 function AboutCard({ title, text }) {
   return (
-    <div className="about-card">
+    <div className="card about-card">
       <p>{title}</p>
       <p>{text}</p>
     </div>

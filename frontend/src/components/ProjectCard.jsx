@@ -1,6 +1,6 @@
 function ProjectCard({ img, link, projectTitle, t1, t2, t3, desc }) {
   return (
-    <div className="project-card">
+    <div className="card project-card">
       <div className="logo-container">
         <a href={link} target="_blank">
           <img src={img} alt="" />

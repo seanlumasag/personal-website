@@ -1,6 +1,6 @@
 function Nav() {
   return (
-    <nav className="navigation" id="navigation">
+    <nav className="navigation section" id="navigation">
       <a href="#home" className="name">Sean <span className="name">Lumasag</span></a>
       <ul>
         <li>
@@ -12,9 +12,11 @@ function Nav() {
         <li>
           <a href="#projects">Projects</a>
         </li>
+        {/*
         <li>
           <a href="#skills">Skills</a>
         </li>
+        */}
         <li>
           <a href="#contact">Contact</a>
         </li>

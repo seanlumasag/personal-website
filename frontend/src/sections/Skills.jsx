@@ -1,18 +1,17 @@
-import SkillCard from "./SkillCard";
+import SkillCard from "../components/SkillCard";
 
 function Skills() {
   return (
-    <div className="skills" id="skills">
+    <div className="skills section" id="skills">
       <h1>Skills</h1>
       <div className="card-container">
         <SkillCard
-          SkillType="Languages"
-          SkillTech="Java, Python, C++"
+          skillType="Languages"
+          t1="Java"
+          t2="Python"
+          t3="JavaScript"
         />
-        <SkillCard
-          SkillType="Frameworks"
-          SkillTech="React, Flask"
-        />
+        <SkillCard SkillType="Frameworks" SkillTech="React, Flask" />
         <SkillCard
           SkillType="Tools"
           SkillTech="PostgreSQL, Git, Github, Terminal"

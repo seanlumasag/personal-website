@@ -1,8 +1,8 @@
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 import websiteImg from "../assets/website.jpg";
 function Projects() {
   return (
-    <div className="projects" id="projects">
+    <div className="projects section" id="projects">
       <h1>Projects</h1>
       <div className="card-container">
         <ProjectCard

@@ -4,8 +4,10 @@ import githubIcon from "../assets/github-icon.png"
 
 function Contact() {
   return (
-    <footer className="contact" id="contact">
+    <footer className="contact section" id="contact">
+      {/*
       <ul className="icons">
+        
         <li>
           <a href="https://github.com/seanlumasag" target="_blank">
             <img src={githubIcon} alt="GitHub" />
@@ -17,6 +19,7 @@ function Contact() {
           </a>
         </li>
       </ul>
+      */}
       <ul className="nav">
         <li>
           <a href="#about">About</a>
@@ -34,7 +37,7 @@ function Contact() {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <p>Copyright © 2025 Sean Lumasag | All rights reserved</p>
+      <p>Copyright © 2025 Sean Lumasag. All rights reserved.</p>
     </footer>
   );
 }
