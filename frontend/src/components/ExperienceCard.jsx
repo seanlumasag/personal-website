@@ -1,6 +1,6 @@
 import dataStorytellingImg from "../assets/data-storytelling.png";
 
-function ExperienceCard({ img, link, experienceTitle, b1, b2, b3, b4, b5 }) {
+function ExperienceCard({ img, link, experienceTitle, t1, t2, t3, desc }) {
   return (
     <div className="experience-card">
       <div className="logo-container">
@@ -10,23 +10,13 @@ function ExperienceCard({ img, link, experienceTitle, b1, b2, b3, b4, b5 }) {
       </div>
       <div className="text-container">
         <h1>{experienceTitle}</h1>
-        <ul className="bullets">
-          <li>
-            <p>{b1}</p>
-          </li>
-          <li>
-            <p>{b2}</p>
-          </li>
-          <li>
-            <p>{b3}</p>
-          </li>
-          <li>
-            <p>{b4}</p>
-          </li>
-          <li>
-            <p>{b5}</p>
-          </li>
-        </ul>
+        <div className="tech-stack">
+          <p>{t1}</p>
+          <p>{t2}</p>
+          <p>{t3}</p>
+        </div>
+
+        <p className="desc">{desc}</p>
       </div>
     </div>
   );
