@@ -22,15 +22,20 @@ p:empty {
   width: 100%;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
 }
 
 .card {
-    border: 1px solid black;
-    border-radius: 1rem;
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
 }
 
 /**********************************************************************************************************/
@@ -87,7 +92,6 @@ p:empty {
 }
 
 .home h1 {
-  font-size: 4rem;
   margin-bottom: 0.5rem;
 }
 
@@ -151,10 +155,6 @@ p:empty {
   justify-content: center;
 }
 
-.about-title-text-button h1 {
-  font-size: 4.25rem;
-}
-
 .about-title-text-button p {
   font-size: 1.5rem;
   margin-top: 1rem;
@@ -175,16 +175,11 @@ p:empty {
   flex-direction: column;
 }
 
-.experience .experience-title {
-  font-size: 4.25rem;
-}
-
 .experience .card-container {
   border: 1px solid white;
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
   gap: 3rem;
 }
 
@@ -230,16 +225,11 @@ p:empty {
   flex-direction: column;
 }
 
-.projects h1 {
-  font-size: 4.25rem;
-}
-
 .projects .card-container {
   border: 1px solid white;
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 3rem;
   gap: 3rem;
 }
 
@@ -285,15 +275,10 @@ p:empty {
   min-height: 100vh;
 }
 
-.skills h1 {
-  font-size: 4.25rem;
-}
-
 .skills .card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
-  margin-top: 3rem;
   gap: 3rem;
 }
 .skill-card {
@@ -317,9 +302,7 @@ p:empty {
 /**********************************************************************************************************/
 .contact {
   flex-direction: column;
-
-  padding: 5rem;
-  gap: 2rem;
+  padding-bottom: 5rem;
 }
 
 .contact .icons {
