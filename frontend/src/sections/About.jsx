@@ -1,10 +1,10 @@
-import AboutCard from "../components/AboutCard.jsx";
+import AboutMeCard from "../components/AboutMeCard.jsx";
 import TechTag from "../components/TechTag.jsx"
 function About() {
   return (
     <div className="about section" id="about">
       <div className="info-container">
-        <div className="card tech-stack about-card">
+        <div className="card tech-stack about-me-card">
           <p>Tech Stack</p>
           <div className="tech-stack">
             <TechTag text="React"/>
@@ -13,10 +13,10 @@ function About() {
           </div>
         </div>
 
-        <AboutCard title="Education" text="Rutgers University" />
-        <AboutCard title="Major" text="Computer Science" />
-        <AboutCard title="Expected Graduation" text="2027" />
-        <AboutCard title="Location" text="New Jersey, US" />
+        <AboutMeCard title="Education" text="Rutgers University" />
+        <AboutMeCard title="Major" text="Computer Science" />
+        <AboutMeCard title="Expected Graduation" text="2027" />
+        <AboutMeCard title="Location" text="New Jersey, US" />
       </div>
       <div className="about-title-text-button">
         <h1>About Me</h1>

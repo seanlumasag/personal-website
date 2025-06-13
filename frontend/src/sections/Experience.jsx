@@ -1,4 +1,3 @@
-import ExperienceCard from "../components/InfoCard";
 import dataStorytellingImg from "../assets/data-storytelling.png";
 import hadoopExpressImg from "../assets/hadoop-express.png";
 import tagOnlineImg from "../assets/tag-online.png";
@@ -16,7 +15,7 @@ function Experience() {
           t1="JavaScript"
           t2="React"
           t3=""
-          desc="Enhanced UI for 500+ monthly client site visitors by developing frontend layouts using HTML, CSS, and JavaScript, while increasing average site load speed by 10% through legacy site migration to WordPress. Collaborated with 7 interns to divide tasks, customize 20+ plugins, develop branded pages, and maintain consistent styling across five legacy codebases."
+          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         />
         <InfoCard
           img={hadoopExpressImg}

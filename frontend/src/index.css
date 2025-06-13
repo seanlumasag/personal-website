@@ -133,13 +133,14 @@ p {
   gap: 2rem;
 }
 
-.about-card {
+.about-me-card {
   justify-content: space-between;
 }
 
-.about-card .tech-stack {
+.about-me-card .tech-stack {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .about-title-text-button {
@@ -179,7 +180,7 @@ p {
   height: 100%;
   object-fit: contain;
 }
-.experience .text-container {
+.info-card .text-container {
   border: 1px solid white;
   display: flex;
   flex-direction: column;
@@ -188,20 +189,10 @@ p {
 
 .info-card .tech-stack {
   display: flex;
+  gap: 0.5rem;
 }
 
-.info-card .tech-stack p {
-  border: 1px solid black;
-  border-radius: 1rem;
-  padding: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.experience .text-container li {
-  list-style: none;
-  margin-bottom: 0.5rem;
-}
-.info-card h1 {
+.info-card h2 {
   font-size: 2rem;
 }
 
