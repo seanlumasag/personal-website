@@ -6,7 +6,7 @@ function Home() {
       <div className="intro">
         <h1>Hello,</h1>
         <h1>
-          I'm <span className="name">Sean</span>
+          I'm <span className="accent">Sean</span>
         </h1>
         <h1>Software Engineer</h1>
         <div className="intro-buttons">

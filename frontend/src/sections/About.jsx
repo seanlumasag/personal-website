@@ -1,15 +1,15 @@
 import AboutCard from "../components/AboutCard.jsx";
-
+import TechTag from "../components/TechTag.jsx"
 function About() {
   return (
     <div className="about section" id="about">
       <div className="info-container">
         <div className="card tech-stack about-card">
           <p>Tech Stack</p>
-          <div className="tech">
-            <p>React</p>
-            <p>Spring Boot</p>
-            <p>PostgreSQL</p>
+          <div className="tech-stack">
+            <TechTag text="React"/>
+            <TechTag text="Spring Boot"/>
+            <TechTag text="PostgreSQL"/>
           </div>
         </div>
 

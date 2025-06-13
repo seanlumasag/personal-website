@@ -1,39 +1,40 @@
-import ExperienceCard from "../components/ExperienceCard";
+import ExperienceCard from "../components/InfoCard";
 import dataStorytellingImg from "../assets/data-storytelling.png";
 import hadoopExpressImg from "../assets/hadoop-express.png";
 import tagOnlineImg from "../assets/tag-online.png";
+import InfoCard from "../components/InfoCard";
 
 function Experience() {
   return (
     <div className="experience section" id="experience">
       <h1 className="experience-title">Experience</h1>
       <div className="card-container">
-        <ExperienceCard
+        <InfoCard
           img={dataStorytellingImg}
           link="https://devonmcguinness.com"
-          experienceTitle="Software Engineering Intern"
+          title="Software Engineering Intern"
           t1="JavaScript"
           t2="React"
           t3=""
-          desc="Enhanced UI for 500+ monthly client site visitors by developing frontend layouts with HTML, CSS, and JavaScript"
+          desc="Enhanced UI for 500+ monthly client site visitors by developing frontend layouts using HTML, CSS, and JavaScript, while increasing average site load speed by 10% through legacy site migration to WordPress. Collaborated with 7 interns to divide tasks, customize 20+ plugins, develop branded pages, and maintain consistent styling across five legacy codebases."
         />
-        <ExperienceCard
+        <InfoCard
           img={hadoopExpressImg}
           link="https://www.hadoopexpress.com"
-          experienceTitle="Coding Instructor"
+          title="Coding Instructor"
           t1="Robotics"
           t2="Python"
           t3="Block Coding"
-          desc="Led weekly STEM instruction to 20+ students by guiding them through programming and engineering challenges"
+          desc="Led weekly STEM sessions for 20+ students, teaching robotics, block coding, and Python using platforms like WeDo and EV3, while implementing 50+ hands-on projects to reinforce concepts. Achieved a 90% module completion rate by designing and executing a structured robotics curriculum."
         />
-        <ExperienceCard
+        <InfoCard
           img={tagOnlineImg}
           link="https://tagonline.com"
-          experienceTitle="Software Engineering Intern"
+          title="Software Engineering Intern"
           t1="HTML"
           t2="CSS"
           t3="JavaScript"
-          desc="Enhanced UI for 500+ monthly client site visitors by developing frontend layouts with HTML, CSS, and JavaScript"
+          desc="Enhanced UI for 500+ monthly client site visitors by developing frontend layouts using HTML, CSS, and JavaScript, while increasing average site load speed by 10% through legacy site migration to WordPress. Collaborated with 7 interns to divide tasks, customize 20+ plugins, develop branded pages, and maintain consistent styling across five legacy codebases."
         />
       </div>
     </div>
