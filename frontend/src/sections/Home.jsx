@@ -3,17 +3,19 @@ import headshot from "../assets/headshot.jpg";
 function Home() {
   return (
     <div className="home section" id="home">
-      <div className="intro">
+      <div className="text-container">
         <h1>Hello,</h1>
         <h1>
           I'm <span className="accent">Sean</span>
         </h1>
         <h1>Software Engineer</h1>
-        <div className="intro-buttons">
-          <a href="#contact" className="cta-button">Contact</a>
+        <div className="button-container">
+          <a href="#contact" className="cta-button">
+            Contact
+          </a>
         </div>
       </div>
-      <div className="headshot-container">
+      <div className="img-container">
         <img src={headshot} className="headshot" />
       </div>
     </div>

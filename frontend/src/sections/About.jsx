@@ -1,32 +1,33 @@
 import AboutMeCard from "../components/AboutMeCard.jsx";
-import TechTag from "../components/TechTag.jsx"
+import TechTag from "../components/TechTag.jsx";
 function About() {
   return (
     <div className="about section" id="about">
-      <div className="info-container">
-        <div className="card tech-stack about-me-card">
+      <div className="card-container">
+        <div className="card about-me-card">
           <p>Tech Stack</p>
           <div className="tech-stack">
-            <TechTag text="React"/>
-            <TechTag text="Spring Boot"/>
-            <TechTag text="PostgreSQL"/>
+            <TechTag text="React" />
+            <TechTag text="Spring Boot" />
+            <TechTag text="PostgreSQL" />
           </div>
         </div>
-
         <AboutMeCard title="Education" text="Rutgers University" />
-        <AboutMeCard title="Major" text="Computer Science" />
+        <AboutMeCard title="Major" text="Computer Science & Data Science" />
         <AboutMeCard title="Expected Graduation" text="2027" />
         <AboutMeCard title="Location" text="New Jersey, US" />
       </div>
-      <div className="about-title-text-button">
+      <div className="text-container">
         <h1>About Me</h1>
         <p>
           Computer Science and Data Science student at Rutgers University–New
           Brunswick with a strong interest in software engineering, machine
           learning, and artificial intelligence.
         </p>
-        <div className="about-button">
-          <a href="#experience" className="cta-button">Learn More</a>
+        <div className="button-container">
+          <a href="#experience" className="cta-button">
+            Learn More
+          </a>
         </div>
       </div>
     </div>
