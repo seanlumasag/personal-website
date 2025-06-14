@@ -1,6 +1,6 @@
 import headshot from "../assets/headshot.jpg";
-import linkedinIcon from "../assets/linkedin-icon.webp"
-import githubIcon from "../assets/github-icon.png"
+import linkedinIcon from "../assets/linkedin-icon.webp";
+import githubIcon from "../assets/github-icon.png";
 
 function Contact() {
   return (

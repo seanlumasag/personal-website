@@ -27,7 +27,7 @@ img {
   object-fit: contain;
 }
 .accent {
-  color: slategray;
+  color: darkslategray;
 }
 /**********************************************************************************************************/
 .app {
@@ -69,13 +69,18 @@ img {
 }
 
 .cta-button {
-  border: 1px solid black;
+  border: 1px solid darkslategray;
+  background-color: darkslategray;
+  color: white;
   border-radius: 1rem;
   padding: 1rem 1.5rem;
 }
-
+.button-container:hover {
+  transform: scale(1.05);
+}
 .button-container {
   margin-top: 3rem;
+  align-self: flex-start;
 }
 
 .tech-tag {
@@ -107,10 +112,20 @@ img {
   font-size: 2.25rem;
 }
 
+.navigation .name:hover{
+  transform: scale(1.05);
+}
+
 .navigation ul {
   display: flex;
   list-style: none;
   gap: 2rem;
+}
+
+.navigation ul a:hover {
+  border-bottom: 2px solid darkslategray;
+  padding-bottom: 0.5rem;
+  color: darkslategray;
 }
 
 /**********************************************************************************************************/
@@ -218,7 +233,7 @@ img {
   width: 2rem;
 }
 
-.contact ul{
+.contact ul {
   display: flex;
   justify-content: center;
   list-style: none;
