@@ -1,3 +1,7 @@
+:root {
+  --accent-color: darkslategray;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,10 +28,9 @@ p:empty {
 img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
 }
 .accent {
-  color: darkslategray;
+  color: var(--accent-color);
 }
 /**********************************************************************************************************/
 .app {
@@ -52,14 +55,24 @@ img {
 }
 
 .card {
-  border: 1px solid black;
+  border: 2px solid var(--accent-color);
   border-radius: 1rem;
   padding: 2rem;
   display: flex;
   align-items: center;
   gap: 2rem;
+  background-color: aliceblue ;
 }
 
+.card:hover {
+  background-color: var(--accent-color);
+}
+.card p {
+  color: var(--accent-color);
+}
+.card:hover p {
+  color: white;
+}
 .card-container {
   border: 1px solid white;
   display: flex;
@@ -69,8 +82,7 @@ img {
 }
 
 .cta-button {
-  border: 1px solid darkslategray;
-  background-color: darkslategray;
+  background-color: var(--accent-color);
   color: white;
   border-radius: 1rem;
   padding: 1rem 1.5rem;
@@ -83,17 +95,25 @@ img {
   align-self: flex-start;
 }
 
-.tech-tag {
-  border: 1px solid black;
+.card .tech-tag {
   border-radius: 1rem;
   padding: 0.5rem;
   margin: -0.5rem 0;
+  border: 2px solid var(--accent-color);
+  background-color: white;
 }
 
-.tech-stack {
+.card:hover .tech-tag {
+  color: var(--accent-color);
+  background-color: white;
+}
+
+.card .tech-stack {
   display: flex;
   gap: 0.5rem;
 }
+
+
 
 /**********************************************************************************************************/
 .navigation {
@@ -112,7 +132,7 @@ img {
   font-size: 2.25rem;
 }
 
-.navigation .name:hover{
+.navigation .name:hover {
   transform: scale(1.05);
 }
 
@@ -122,10 +142,10 @@ img {
   gap: 2rem;
 }
 
-.navigation ul a:hover {
-  border-bottom: 2px solid darkslategray;
+ul a:hover {
+  border-bottom: 2px solid var(--accent-color);
   padding-bottom: 0.5rem;
-  color: darkslategray;
+  color: var(--accent-color);
 }
 
 /**********************************************************************************************************/
@@ -142,15 +162,12 @@ img {
 }
 
 .home .img-container {
-  display: flex;
-  justify-content: right;
-  align-items: center;
+  border-radius: 50%;
 }
 
 .home .headshot {
   border-radius: 50%;
 }
-
 /**********************************************************************************************************/
 .about {
   min-height: 0;
@@ -178,7 +195,8 @@ img {
   padding: 1rem;
   border-radius: 1rem;
   flex: none;
-  border: 1px solid black;
+  border: 2px solid var(--accent-color);;
+  background-color: white;
 }
 .info-card img {
   width: 100%;
@@ -186,13 +204,17 @@ img {
   object-fit: contain;
 }
 .info-card .text-container {
-  border: 1px solid white;
+  border: 1px transparent white;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
 }
 .info-card h2 {
   font-size: 2rem;
+  color: var(--accent-color);
+}
+.card:hover h2 {
+  color: white;
 }
 
 /**********************************************************************************************************/
