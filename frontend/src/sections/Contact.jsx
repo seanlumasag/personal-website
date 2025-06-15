@@ -8,22 +8,30 @@ function Contact() {
       <ul className="contact-icons">
         <li>
           <a href="mailto:seanlumasag15@gmail.com" target="_blank">
-            <img src={emailIcon} alt="Email" />
+            <div className="img-container">
+              <img src={emailIcon} alt="Email" />
+            </div>
           </a>
         </li>
         <li>
           <a href="tel:+8622418905" target="_blank">
-            <img src={phoneIcon} alt="Phone" />
+            <div className="img-container">
+              <img src={phoneIcon} alt="Phone" />
+            </div>
           </a>
         </li>
         <li>
           <a href="https://linkedin.com/in/seanlumasag" target="_blank">
-            <img src={linkedinIcon} alt="LinkedIn" />
+            <div className="img-container">
+              <img src={linkedinIcon} alt="LinkedIn" />
+            </div>
           </a>
         </li>
         <li>
           <a href="https://github.com/seanlumasag" target="_blank">
-            <img src={githubIcon} alt="GitHub" />
+            <div className="img-container">
+              <img src={githubIcon} alt="GitHub" />
+            </div>
           </a>
         </li>
       </ul>
