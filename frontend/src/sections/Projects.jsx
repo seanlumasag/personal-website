@@ -1,5 +1,6 @@
 import InfoCard from "../components/InfoCard";
-import websiteImg from "../assets/website.jpg";
+import websiteImg from "../assets/favicon.png"
+
 function Projects() {
   return (
     <div className="projects section" id="projects">

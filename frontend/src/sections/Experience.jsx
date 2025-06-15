@@ -2,7 +2,6 @@ import dataStorytellingImg from "../assets/data-storytelling.png";
 import hadoopExpressImg from "../assets/hadoop-express.png";
 import tagOnlineImg from "../assets/tag-online.png";
 import InfoCard from "../components/InfoCard";
-
 function Experience() {
   return (
     <div className="experience section" id="experience">

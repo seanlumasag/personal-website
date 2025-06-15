@@ -105,7 +105,6 @@ img {
 
 .card:hover .tech-tag {
   color: var(--accent-color);
-  border-color: white;
 }
 
 .card .tech-stack {
@@ -247,14 +246,13 @@ img {
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .contact .img-container {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  border: 1px solid white;
 }
 
 .contact .img-container:hover {
