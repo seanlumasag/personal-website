@@ -12,10 +12,10 @@ function Experience() {
           img={dataStorytellingImg}
           link="https://devonmcguinness.com"
           title="Software Engineering Intern"
-          t1="JavaScript"
-          t2="React"
-          t3=""
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          t1="TBD"
+          t2="TBD"
+          t3="TBD"
+          desc="TBD"
         />
         <InfoCard
           img={hadoopExpressImg}
