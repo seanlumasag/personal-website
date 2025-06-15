@@ -20,10 +20,10 @@ function Experience() {
           img={hadoopExpressImg}
           link="https://www.hadoopexpress.com"
           title="Coding Instructor"
-          t1="Robotics"
-          t2="Python"
-          t3="Block Coding"
-          desc="Led weekly STEM sessions for 20+ students, teaching robotics, block coding, and Python using platforms like WeDo and EV3, while implementing 50+ hands-on projects to reinforce concepts. Achieved a 90% module completion rate by designing and executing a structured robotics curriculum."
+          t1="Python"
+          t2="Block Coding"
+          t3="Robotics"
+          desc="Led weekly STEM sessions for 20+ students, teaching Python, block coding, and robotics using platforms like WeDo and EV3, while implementing 50+ hands-on projects to reinforce concepts. Achieved a 90% module completion rate by designing and executing a structured robotics curriculum."
         />
         <InfoCard
           img={tagOnlineImg}
