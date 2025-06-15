@@ -14,7 +14,7 @@ function Contact() {
           </a>
         </li>
         <li>
-          <a href="tel:+8622418905" target="_blank">
+          <a href="tel:+18622418905" target="_blank">
             <div className="img-container">
               <img src={phoneIcon} alt="Phone" />
             </div>
