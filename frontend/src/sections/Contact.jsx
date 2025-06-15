@@ -1,16 +1,19 @@
-import headshot from "../assets/headshot.jpg";
 import linkedinIcon from "../assets/linkedin-icon.webp";
 import githubIcon from "../assets/github-icon.png";
-
+import phoneIcon from "../assets/phone-icon.png";
+import emailIcon from "../assets/email-icon.webp";
 function Contact() {
   return (
     <footer className="contact section" id="contact">
-      {/*
-      <ul className="icons">
-        
+      <ul className="contact-icons">
         <li>
-          <a href="https://github.com/seanlumasag" target="_blank">
-            <img src={githubIcon} alt="GitHub" />
+          <a href="mailto:seanlumasag15@gmail.com" target="_blank">
+            <img src={emailIcon} alt="Email" />
+          </a>
+        </li>
+        <li>
+          <a href="tel:+8622418905" target="_blank">
+            <img src={phoneIcon} alt="Phone" />
           </a>
         </li>
         <li>
@@ -18,9 +21,14 @@ function Contact() {
             <img src={linkedinIcon} alt="LinkedIn" />
           </a>
         </li>
+        <li>
+          <a href="https://github.com/seanlumasag" target="_blank">
+            <img src={githubIcon} alt="GitHub" />
+          </a>
+        </li>
       </ul>
-      */}
-      <ul>
+
+      <ul className="navbar">
         <li>
           <a href="#about">About</a>
         </li>

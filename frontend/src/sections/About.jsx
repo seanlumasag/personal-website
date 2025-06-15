@@ -13,7 +13,7 @@ function About() {
           </div>
         </div>
         <AboutMeCard title="Education" text="Rutgers University" />
-        <AboutMeCard title="Major" text="Computer Science & Data Science" />
+        <AboutMeCard title="Major" text="Computer Science and Data Science" />
         <AboutMeCard title="Expected Graduation" text="2027" />
         <AboutMeCard title="Location" text="New Jersey, US" />
       </div>

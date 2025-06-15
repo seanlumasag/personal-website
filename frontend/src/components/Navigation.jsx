@@ -4,7 +4,7 @@ function Nav() {
       <a href="#home" className="name">
         Sean <span className="accent">Lumasag</span>
       </a>
-      <ul>
+      <ul className="navbar">
         <li>
           <a href="#about">About</a>
         </li>
