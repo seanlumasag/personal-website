@@ -1,14 +1,17 @@
 :root {
   --accent-color: #2f4f4f;
   --secondary-accent-color: white;
+  --max-width-var: 1300px;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   transition-duration: 0.2s;
 }
+
 
 h1 {
   font-size: 4rem;
@@ -37,13 +40,15 @@ img {
 /**********************************************************************************************************/
 .app {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section {
   display: flex;
   padding-top: 10rem;
-  padding-right: 10rem;
-  padding-left: 10rem;
+  max-width: var(--max-width-var);
   align-items: center;
   justify-content: center;
   gap: 3rem;
@@ -76,7 +81,6 @@ img {
   color: var(--accent-color);
 }
 .card-container {
-  border: 1px solid white;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -127,9 +131,17 @@ img {
   z-index: 999;
   backdrop-filter: blur(2rem);
   background-color: rgb(255, 255, 255, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-container {
+  width: var(--max-width-var);
+  display: flex;
+  justify-content: space-between;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .navigation .name {
@@ -187,6 +199,10 @@ img {
 /**********************************************************************************************************/
 .experience {
   flex-direction: column;
+}
+
+.info-card {
+  width: var(--max-width-var);
 }
 
 .info-card .logo-container {
@@ -287,16 +303,16 @@ img {
     padding: 2rem;
   }
 
-  .text-container{
+  .text-container {
     align-items: center;
     text-align: center;
   }
 
-  .button-container{
+  .button-container {
     align-self: center;
   }
 
-  .name{
+  .name {
     display: none;
   }
 
