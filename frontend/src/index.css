@@ -209,6 +209,8 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  align-self: flex-start;
+  text-align: justify;
 }
 .info-card h2 {
   font-size: 2rem;
@@ -271,4 +273,36 @@ img {
 
 .contact p {
   justify-content: center;
+}
+
+@media (max-width: 968px) {
+  .section {
+    flex-direction: column;
+    padding: 10rem 2rem;
+  }
+  .home .name {
+    display: none;
+  }
+
+  .home {
+    padding-top: 40rem;
+  }
+  .navigation {
+    padding: 2rem;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+  .info-card {
+    align-items: center;
+  }
+
+  .info-card {
+    flex-direction: column;
+  }
+  .info-card .text-container {
+    align-items: center;
+    align-self: center;
+  }
 }
