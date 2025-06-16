@@ -209,7 +209,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  align-self: flex-start;
   text-align: justify;
 }
 .info-card h2 {
@@ -301,8 +300,9 @@ img {
   .info-card {
     flex-direction: column;
   }
-  .info-card .text-container {
+  .card .info-card .text-container {
     align-items: center;
-    align-self: center;
+    align-self: flex-start;
+
   }
 }
