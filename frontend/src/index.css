@@ -150,7 +150,7 @@ img {
 
 /**********************************************************************************************************/
 .home {
-  height: 100vh;
+  min-height: 100vh;
   gap: 6rem;
   padding-bottom: 10rem;
 }
@@ -283,11 +283,21 @@ img {
     display: none;
   }
 
-  .home {
-    padding-top: 40rem;
-  }
   .navigation {
     padding: 2rem;
+  }
+
+  .text-container{
+    align-items: center;
+    text-align: center;
+  }
+
+  .button-container{
+    align-self: center;
+  }
+
+  .name{
+    display: none;
   }
 
   .card-container {
@@ -295,14 +305,10 @@ img {
   }
   .info-card {
     align-items: center;
-  }
-
-  .info-card {
     flex-direction: column;
   }
-  .card .info-card .text-container {
-    align-items: center;
-    align-self: flex-start;
 
+  .info-card .text-container {
+    align-items: center;
   }
 }
