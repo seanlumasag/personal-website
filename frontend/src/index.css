@@ -283,8 +283,19 @@ img {
 
 @media (max-width: 1150px) {
   :root {
-    --max-width-var: 600px;
+    --max-width-var: 430px;
   }
+
+  .navigation .navbar {
+    display: none;
+  }
+
+  .navbar-container{
+    justify-content: center;
+  }
+
+  
+
   .section {
     flex-direction: column;
     padding: 10rem 2rem;
@@ -300,10 +311,6 @@ img {
 
   .button-container {
     align-self: center;
-  }
-
-  .name {
-    display: none;
   }
 
   .card-container {
