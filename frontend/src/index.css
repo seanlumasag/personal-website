@@ -283,7 +283,7 @@ img {
 
 @media (max-width: 1150px) {
   :root {
-    --max-width-var: 400px;
+    --max-width-var: 370px;
   }
 
   .navigation .navbar {
