@@ -21,8 +21,8 @@ function About() {
         <h1>About Me</h1>
         <p>
           Computer Science and Data Science student at Rutgers University–New
-          Brunswick with a strong interest in software engineering, machine
-          learning, and artificial intelligence.
+          Brunswick with a passion for software engineering, machine learning,
+          and artificial intelligence.
         </p>
         <div className="button-container">
           <a href="#experience" className="cta-button">

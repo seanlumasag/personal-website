@@ -11,9 +11,9 @@ function Experience() {
           img={dataStorytellingImg}
           link="https://devonmcguinness.com"
           title="Software Engineering Intern"
-          t1="TBD"
-          t2="TBD"
-          t3="TBD"
+          t1="PostgreSQL"
+          t2="React"
+          t3="JavaScript"
           desc="TBD"
         />
         <InfoCard
