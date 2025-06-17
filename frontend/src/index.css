@@ -111,6 +111,7 @@ img {
 .tech-stack {
   display: flex;
   gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .button-container:hover,
@@ -199,7 +200,7 @@ img {
 }
 
 .info-card {
-  width: var(--max-width-var);
+  max-width: var(--max-width-var);
 }
 
 .info-card .logo-container {
@@ -283,18 +284,22 @@ img {
 
 @media (max-width: 1150px) {
   :root {
-    --max-width-var: 370px;
+    --max-width-var: 390px;
   }
 
-  .navigation .navbar {
+  h1{
+    font-size: 3rem;
+  }
+
+  .navigation .navbar,
+  .contact .navbar {
     display: none;
   }
 
-  .navbar-container{
+
+  .navbar-container {
     justify-content: center;
   }
-
-
 
   .section {
     flex-direction: column;
@@ -321,7 +326,16 @@ img {
     flex-direction: column;
   }
 
+  .about-me-card{
+    flex-direction: column;
+  }
+
   .info-card .text-container {
     align-items: center;
+  }
+
+  .tech-tag{
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
   }
 }
