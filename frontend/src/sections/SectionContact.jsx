@@ -4,7 +4,7 @@ import phoneIcon from "../assets/phone-icon.png";
 import emailIcon from "../assets/email-icon.webp";
 function Contact() {
   return (
-    <footer className="contact section" id="contact">
+    <footer className="section section-contact" id="contact">
       <ul className="contact-icons">
         <li>
           <a href="mailto:seanlumasag15@gmail.com" target="_blank">

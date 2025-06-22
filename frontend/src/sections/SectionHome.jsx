@@ -1,8 +1,6 @@
-import headshot from "../assets/headshot.jpg";
-
 function Home() {
   return (
-    <div className="home section" id="home">
+    <div className="section section-home" id="home">
       <div className="conainer-text">
         <h1>Hello,</h1>
         <h1>

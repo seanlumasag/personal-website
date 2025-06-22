@@ -1,13 +1,13 @@
 import dataStorytellingImg from "../assets/data-storytelling.png";
 import hadoopExpressImg from "../assets/hadoop-express.png";
 import tagOnlineImg from "../assets/tag-online.png";
-import InfoCard from "../components/CardInfo";
+import CardInfo from "../components/CardInfo";
 function Experience() {
   return (
-    <div className="experience section" id="experience">
+    <div className="section section-experience" id="experience">
       <h1 className="experience-title">Experience</h1>
       <div className="container-card">
-        <InfoCard
+        <CardInfo
           img={dataStorytellingImg}
           link="https://devonmcguinness.com"
           title="Software Engineering Intern"
@@ -16,7 +16,7 @@ function Experience() {
           t3="JavaScript"
           desc="TBD"
         />
-        <InfoCard
+        <CardInfo
           img={hadoopExpressImg}
           link="https://www.hadoopexpress.com"
           title="Coding Instructor"
@@ -25,7 +25,7 @@ function Experience() {
           t3="Robotics"
           desc="Led weekly STEM sessions for 20+ students, teaching Python, block coding, and robotics using platforms like WeDo and EV3, while implementing 50+ hands-on projects to reinforce concepts. Achieved a 90% module completion rate by designing and executing a structured robotics curriculum."
         />
-        <InfoCard
+        <CardInfo
           img={tagOnlineImg}
           link="https://tagonline.com"
           title="Software Engineering Intern"
