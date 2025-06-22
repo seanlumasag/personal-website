@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="about section" id="about">
       <div className="card-container">
-        <div className="card about-me-card">
+        <div className="card card-about-me">
           <p>Tech Stack</p>
           <div className="tech-stack">
             <TechTag text="React" />

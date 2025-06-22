@@ -9,15 +9,26 @@ import Contact from "./sections/Contact";
 function App() {
   return (
     <div className="app">
-      <Navigation />
-      <Home />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
       {/*
-      <Skills />
+      <Navigation />
+      
       */}
+      <div className="section-app">
+        <div className="section-fixed">
+          <Home />
+        </div>
+        <div className="section-scroll">
+          
+          <About />
+          
+          <Experience />
+          <Projects />
+          <Contact />
+          {/*
+          <Skills />
+          */}
+        </div>
+      </div>
     </div>
   );
 }

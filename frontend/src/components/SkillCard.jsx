@@ -1,6 +1,6 @@
 function SkillCard({ skillType, t1, t2, t3, t4, t5, t6 }) {
   return (
-    <div className="card skill-card">
+    <div className="card card-skill">
       <h1>{skillType}</h1>
       <div className="tech-stack">
         <p>{t1}</p>

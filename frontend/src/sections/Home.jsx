@@ -15,9 +15,6 @@ function Home() {
           </a>
         </div>
       </div>
-      <div className="img-container">
-        <img src={headshot} className="headshot" />
-      </div>
     </div>
   );
 }

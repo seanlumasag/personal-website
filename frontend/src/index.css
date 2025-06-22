@@ -38,16 +38,31 @@ img {
 /**********************************************************************************************************/
 .app {
   background-color: white;
+}
+
+.section-main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.section-fixed {
+  left: 0;
+  position: fixed;
+  padding: 0 1rem;
+  width: 50%;
+  border: 1px solid red;
+}
+
+.section-scroll {
+  border: 1px solid red;
+
+  width: 50%;
+  margin-left: 50%;
+  padding: 0 2rem;
 }
 
 .section {
   display: flex;
   padding-top: 10rem;
-  max-width: var(--max-width-var);
-  min-width: var(--max-width-var);
   align-items: center;
   justify-content: center;
 }
@@ -119,7 +134,6 @@ img {
 .navigation .name:hover {
   transform: scale(1.05);
 }
-
 /**********************************************************************************************************/
 .navigation {
   top: 0;
@@ -181,6 +195,7 @@ img {
 /**********************************************************************************************************/
 .about {
   gap: 6rem;
+  flex-direction: column;
 }
 
 .about .card-container,
@@ -189,7 +204,7 @@ img {
   flex: 1;
 }
 
-.about-me-card {
+.card-about-me {
   justify-content: space-between;
 }
 
@@ -199,11 +214,11 @@ img {
   gap: 3rem;
 }
 
-.info-card {
+.card-info {
   max-width: var(--max-width-var);
 }
 
-.info-card .logo-container {
+.card-info .logo-container {
   height: 15rem;
   width: 15rem;
   padding: 1rem;
@@ -213,14 +228,14 @@ img {
   background-color: white;
 }
 
-.info-card .text-container {
+.card-info .text-container {
   border: 1px transparent white;
   gap: 1.25rem;
 }
-.info-card h2 {
+.card-info h2 {
   font-size: 2rem;
 }
-.info-card .desc {
+.card-info .desc {
   text-align: justify;
 }
 /**********************************************************************************************************/
@@ -241,7 +256,7 @@ img {
   width: 100%;
   gap: 3rem;
 }
-.skill-card {
+.card-skill {
   flex-direction: column;
 }
 
@@ -327,7 +342,6 @@ img {
   .button-container {
     align-self: center;
   }
-  
 
   .card-container {
     flex-direction: column;

@@ -1,7 +1,7 @@
 import TechTag from "../components/TechTag";
 function InfoCard({ img, link, title, t1, t2, t3, t4, t5, desc }) {
   return (
-    <div className="card info-card">
+    <div className="card card-info">
       <div className="logo-container">
         <a href={link} target="_blank">
           <img src={img} alt="" />
