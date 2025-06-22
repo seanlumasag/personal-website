@@ -59,14 +59,11 @@ img {
   display: flex;
   flex-direction: column;
   padding-top: 10rem;
-  align-items: center;
-  justify-content: center;
 }
 
 .container-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 0.5rem;
 }
 
@@ -75,7 +72,16 @@ img {
   border-radius: 1rem;
   padding: 2rem;
   display: flex;
-  align-items: center;
   gap: 2rem;
 }
 
+/**********************************************************************************************************/
+.card-about-me{
+  justify-content: space-between;
+}
+
+.tech-stack{
+  display: flex;
+}
+
+/**********************************************************************************************************/

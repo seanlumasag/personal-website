@@ -1,8 +1,8 @@
-import CardAboutMe from "../components/CardAboutMe.jsx";
+import AboutMeCard from "../components/CardAboutMe.jsx";
 import TechTag from "../components/TechTag.jsx";
 function About() {
   return (
-    <div className="section section-about" id="about">
+    <div className="section " id="about">
       <div className="container-card">
         <div className="card card-about-me">
           <p>Tech Stack</p>
@@ -12,10 +12,10 @@ function About() {
             <TechTag text="PostgreSQL" />
           </div>
         </div>
-        <CardAboutMe title="Education" text="Rutgers University" />
-        <CardAboutMe title="Major" text="Computer Science and Data Science" />
-        <CardAboutMe title="Expected Graduation" text="2027" />
-        <CardAboutMe title="Location" text="New Jersey, US" />
+        <AboutMeCard title="Education" text="Rutgers University" />
+        <AboutMeCard title="Major" text="Computer Science and Data Science" />
+        <AboutMeCard title="Expected Graduation" text="2027" />
+        <AboutMeCard title="Location" text="New Jersey, US" />
       </div>
       <div className="container-text">
         <h1>About Me</h1>
