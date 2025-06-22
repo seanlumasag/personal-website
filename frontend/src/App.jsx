@@ -18,11 +18,10 @@ function App() {
         </div>
         <div className="div-scroll">
           <About />
-          
+          {/*
           <Experience />
           <Projects />
           <Contact />
-          {/*
           <Skills />
           */}
         </div>
