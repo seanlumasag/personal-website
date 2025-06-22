@@ -1,4 +1,4 @@
-function SkillCard({ skillType, t1, t2, t3, t4, t5, t6 }) {
+function CardSkill({ skillType, t1, t2, t3, t4, t5, t6 }) {
   return (
     <div className="card card-skill">
       <h1>{skillType}</h1>
@@ -14,4 +14,4 @@ function SkillCard({ skillType, t1, t2, t3, t4, t5, t6 }) {
   );
 }
 
-export default SkillCard;
+export default CardSkill;

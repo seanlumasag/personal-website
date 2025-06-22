@@ -1,11 +1,11 @@
-import InfoCard from "../components/InfoCard";
-import websiteImg from "../assets/favicon.png"
+import InfoCard from "../components/CardInfo";
+import websiteImg from "../assets/favicon.png";
 
 function Projects() {
   return (
     <div className="projects section" id="projects">
       <h1>Projects</h1>
-      <div className="card-container">
+      <div className="container-card">
         <InfoCard
           img={websiteImg}
           link="https://github.com"

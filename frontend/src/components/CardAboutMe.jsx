@@ -1,4 +1,4 @@
-function AboutMeCard({ title, text }) {
+function CardAboutMe({ title, text }) {
   return (
     <div className="card card-about-me">
       <p>{title}</p>
@@ -7,4 +7,4 @@ function AboutMeCard({ title, text }) {
   );
 }
 
-export default AboutMeCard;
+export default CardAboutMe;

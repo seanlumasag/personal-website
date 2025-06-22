@@ -1,5 +1,5 @@
-import TechTag from "../components/TechTag";
-function InfoCard({ img, link, title, t1, t2, t3, t4, t5, desc }) {
+import TechTag from "./TechTag";
+function CardInfo({ img, link, title, t1, t2, t3, t4, t5, desc }) {
   return (
     <div className="card card-info">
       <div className="logo-container">
@@ -7,7 +7,7 @@ function InfoCard({ img, link, title, t1, t2, t3, t4, t5, desc }) {
           <img src={img} alt="" />
         </a>
       </div>
-      <div className="text-container">
+      <div className="container-text">
         <h2>{title}</h2>
         <div className="tech-stack">
           <p>
@@ -33,4 +33,4 @@ function InfoCard({ img, link, title, t1, t2, t3, t4, t5, desc }) {
   );
 }
 
-export default InfoCard;
+export default CardInfo;

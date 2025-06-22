@@ -3,13 +3,13 @@ import headshot from "../assets/headshot.jpg";
 function Home() {
   return (
     <div className="home section" id="home">
-      <div className="text-container">
+      <div className="conainer-text">
         <h1>Hello,</h1>
         <h1>
           I'm <span className="accent">Sean</span>
         </h1>
         <h1>Software Engineer</h1>
-        <div className="button-container">
+        <div className="container-button">
           <a href="#contact" className="cta-button">
             Contact
           </a>

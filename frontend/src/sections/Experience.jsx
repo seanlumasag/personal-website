@@ -1,12 +1,12 @@
 import dataStorytellingImg from "../assets/data-storytelling.png";
 import hadoopExpressImg from "../assets/hadoop-express.png";
 import tagOnlineImg from "../assets/tag-online.png";
-import InfoCard from "../components/InfoCard";
+import InfoCard from "../components/CardInfo";
 function Experience() {
   return (
     <div className="experience section" id="experience">
       <h1 className="experience-title">Experience</h1>
-      <div className="card-container">
+      <div className="container-card">
         <InfoCard
           img={dataStorytellingImg}
           link="https://devonmcguinness.com"

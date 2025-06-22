@@ -8,28 +8,25 @@ import Contact from "./sections/Contact";
 
 function App() {
   return (
-    <div className="app">
+    <>
       {/*
       <Navigation />
-      
       */}
-      <div className="section-app">
-        <div className="section-fixed">
+      <div className="div-app">
+        <div className="div-fixed">
           <Home />
         </div>
-        <div className="section-scroll">
-          
+        <div className="div-scroll">
           <About />
-          
+          {/*
           <Experience />
           <Projects />
           <Contact />
-          {/*
           <Skills />
           */}
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
