@@ -2,13 +2,16 @@ import TechTag from "./TechTag";
 function CardInfo({ img, link, title, t1, t2, t3, t4, t5, desc }) {
   return (
     <div className="card card-info">
-      <div className="logo-container">
+      <div className="container-logo">
         <a href={link} target="_blank">
           <img src={img} alt="" />
         </a>
       </div>
       <div className="container-text">
         <h2>{title}</h2>
+        
+
+        <p className="desc">{desc}</p>
         <div className="tech-stack">
           <p>
             <TechTag text={t1} />
@@ -26,8 +29,6 @@ function CardInfo({ img, link, title, t1, t2, t3, t4, t5, desc }) {
             <TechTag text={t5} />
           </p>
         </div>
-
-        <p className="desc">{desc}</p>
       </div>
     </div>
   );

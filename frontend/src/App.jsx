@@ -4,7 +4,7 @@ import About from "./sections/SectionAbout";
 import Experience from "./sections/SectionExperience";
 import Projects from "./sections/SectionProjects";
 import Skills from "./sections/SectionSkills";
-import Contact from "./sections/SectionContact";
+import Footer from "./sections/SectionFooter";
 
 function App() {
   return (
@@ -18,10 +18,10 @@ function App() {
         </div>
         <div className="div-scroll">
           <About />
-          {/*
           <Experience />
           <Projects />
-          <Contact />
+          <Footer />
+          {/*
           <Skills />
           */}
         </div>
