@@ -9,9 +9,7 @@ import Footer from "./sections/SectionFooter";
 function App() {
   return (
     <>
-      {/*
       <Navigation />
-      */}
       <div className="div-app">
         <div className="div-fixed">
           <Home />
@@ -20,7 +18,6 @@ function App() {
           <About />
           <Experience />
           <Projects />
-          <Footer />
           {/*
           <Skills />
           */}

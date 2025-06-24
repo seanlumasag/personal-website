@@ -1,10 +1,7 @@
 function Nav() {
   return (
     <nav className="navigation" id="navigation">
-      <div className="navbar-container">
-        <a href="#home" className="name">
-          Sean <span className="accent">Lumasag</span>
-        </a>
+      <div className="container-navbar">
         <ul className="navbar">
           <li>
             <a href="#about">About</a>
@@ -15,13 +12,9 @@ function Nav() {
           <li>
             <a href="#projects">Projects</a>
           </li>
-          {/*
-        <li>
-          <a href="#skills">Skills</a>
-        </li>
-        */}
+
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#skills">Skills</a>
           </li>
         </ul>
       </div>

@@ -1,3 +1,4 @@
+import headshot from "../assets/headshot.jpg";
 import linkedinIcon from "../assets/linkedin-icon.webp";
 import githubIcon from "../assets/github-icon.png";
 import phoneIcon from "../assets/phone-icon.png";
@@ -6,9 +7,16 @@ import emailIcon from "../assets/email-icon.webp";
 function Home() {
   return (
     <div className="section section-home" id="home">
-      <div className="container-text">
-        <h1>Sean Lumasag</h1>
-        <h3>Software Engineer</h3>
+      <div className="container-hero">
+        <div className="container-name-title-headshot">
+          <div className="container-name-title">
+            <h1>Sean Lumasag</h1>
+            <h3>Software Engineer</h3>
+          </div>
+          <div className="container-headshot">
+            <img src={headshot} alt="headshot " />
+          </div>
+        </div>
         <div className="home-text">
           <p>I build accessible, pixel-perfect digital</p>
           <p>experiences for the web.</p>

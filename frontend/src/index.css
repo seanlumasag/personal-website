@@ -1,5 +1,5 @@
 :root {
-  background-color: #151515;
+  background-color: #181818;
   --accent-color: white;
 }
 
@@ -12,7 +12,7 @@
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
 }
 h2 {
@@ -28,7 +28,7 @@ h3 {
 a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 p {
@@ -48,21 +48,20 @@ img {
 }
 /**********************************************************************************************************/
 .div-fixed {
-  width: 550px;
-  height: 80%;
+  width: 600px;
   position: fixed;
   right: 51%;
   top: 10%;
-  bottom: 10%;
   padding: 3rem;
   border-radius: 2rem;
   background-color: #1f1f1f;
+  bottom: 10%;
 }
 
 .div-scroll {
-  margin-top: 10vh;
+  margin-top: 15rem;
   margin-bottom: 10vh;
-  width: 550px;
+  width: 600px;
   margin-left: 51%;
   display: flex;
   flex-direction: column;
@@ -112,6 +111,76 @@ img {
 }
 
 /**********************************************************************************************************/
+.navigation {
+  left: 51%;
+  width: 600px;
+  top: 10%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+}
+
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  padding: 2rem 1rem;
+  align-items: center;
+  border-radius: 2rem;
+  backdrop-filter: blur(0.25rem);
+  justify-self: center;
+  border: 1px solid #1f1f1f;
+}
+
+.navigation .navbar {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+.navigation a {
+  padding: 1rem;
+  margin: -1rem 0;
+  border-radius: 1rem;
+  color: gray;
+}
+
+.container-navbar:hover {
+  background-color: #1f1f1f;
+  border: 1px solid #1f1f1f;
+}
+
+.container-navbar:hover a {
+  color: white;
+}
+
+.navigation a:hover {
+  background-color: grey;
+  padding: 1rem;
+  margin: -1rem 0;
+  border-radius: 1rem;
+}
+
+.container-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container-name-title-headshot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-home .container-headshot {
+  flex: none;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
 .section-home {
   height: 100%;
   justify-content: space-between;
@@ -123,7 +192,7 @@ img {
 }
 
 .cta-button {
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   background-color: grey;
   padding: 1rem;
   align-self: flex-start;
