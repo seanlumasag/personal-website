@@ -4,7 +4,7 @@ import websiteImg from "../assets/favicon.png";
 function Projects() {
   return (
     <div className="section section-projects" id="projects">
-      <h1>Projects</h1>
+      <h2>Projects</h2>
       <div className="container-card">
         <CardInfo
           img={websiteImg}

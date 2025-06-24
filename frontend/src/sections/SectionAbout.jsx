@@ -2,9 +2,8 @@ import CardAbout from "../components/CardAbout.jsx";
 import TechTag from "../components/TechTag.jsx";
 function About() {
   return (
-    <div className="section " id="about">
-      <h1>About Me</h1>
-
+    <div className="section section-about" id="about">
+      <h2>About Me</h2>
       <div className="container-card">
         <div className="card card-about">
           <p>Tech Stack</p>

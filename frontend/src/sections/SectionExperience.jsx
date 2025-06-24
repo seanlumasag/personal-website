@@ -5,7 +5,7 @@ import CardInfo from "../components/CardInfo";
 function Experience() {
   return (
     <div className="section section-experience" id="experience">
-      <h1 className="experience-title">Experience</h1>
+      <h2 className="experience-title">Experience</h2>
       <div className="container-card">
         <CardInfo
           img={dataStorytellingImg}

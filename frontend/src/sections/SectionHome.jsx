@@ -7,18 +7,20 @@ function Home() {
   return (
     <div className="section section-home" id="home">
       <div className="container-text">
-        <h1>Hello,</h1>
-        <h1>
-          I'm <span className="accent">Sean</span>
-        </h1>
-        <h1>Software Engineer</h1>
+        <h1>Sean Lumasag</h1>
+        <h3>Software Engineer</h3>
+        <div className="home-text">
+          <p>I build accessible, pixel-perfect digital</p>
+          <p>experiences for the web.</p>
+        </div>
+
         <div className="container-button">
           <a href="#contact" className="cta-button">
             Contact
           </a>
         </div>
       </div>
-      
+
       <div className="container-contact">
         <ul className="contact-icons">
           <li>

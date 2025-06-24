@@ -8,7 +8,7 @@ function CardInfo({ img, link, title, t1, t2, t3, t4, t5, desc }) {
         </a>
       </div>
       <div className="container-text">
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         
 
         <p className="desc">{desc}</p>
