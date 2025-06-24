@@ -3,7 +3,7 @@ import TechTag from "../components/TechTag.jsx";
 function About() {
   return (
     <div className="section section-about" id="about">
-      <h2>About Me</h2>
+      <h2>About</h2>
       <div className="container-card">
         <div className="card card-about">
           <p>Tech Stack</p>
