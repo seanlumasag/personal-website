@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
   transition-duration: 0.2s;
 }
 
@@ -65,7 +65,7 @@ img {
   margin-left: 51%;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 7rem;
 }
 
 .section {
@@ -105,7 +105,7 @@ img {
 
 .tech-tag {
   border-radius: 0.75rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.75rem;
   margin: -0.5rem 0;
   background-color: darkslategray;
   color: white;
@@ -131,25 +131,23 @@ img {
   border-radius: 2rem;
   backdrop-filter: blur(0.25rem);
   justify-self: center;
-  border: 1px solid #1f1f1f;
 }
 
 .navigation .navbar {
   display: flex;
   list-style: none;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .navigation a {
-  padding: 1rem;
+  padding: 1rem 1.25rem;
   margin: -1rem 0;
   border-radius: 1rem;
-  color: gray;
+  color: #aaaaaa;
 }
 
 .container-navbar:hover {
   background-color: #1f1f1f;
-  border: 1px solid #1f1f1f;
 }
 
 .container-navbar:hover a {
@@ -159,7 +157,7 @@ img {
 .navigation a:hover {
   background-color: darkslategray;
   color: white;
-  padding: 1rem;
+  padding: 1rem 1.25rem;
   margin: -1rem 0;
   border-radius: 1rem;
 }
@@ -204,13 +202,13 @@ img {
 .cta-button {
   border-radius: 1rem;
   background-color: darkslategray;
-  padding: 1rem;
+  padding: 1rem 1.25rem;
   color: white;
 }
 
 .cta-button:hover {
   background-color: white;
-  color: darkslategray;
+  color: black;
 }
 .section-home ul {
   list-style: none;
