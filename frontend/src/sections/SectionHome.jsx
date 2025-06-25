@@ -6,7 +6,7 @@ import emailIcon from "../assets/email-icon.webp";
 
 function Home() {
   return (
-    <div className="section section-home" id="home">
+    <div className="section-home" id="home">
       <div className="container-hero">
         <div className="container-text">
           <div className="container-name-title">
