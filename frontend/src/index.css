@@ -280,8 +280,9 @@ img {
   color: white;
 }
 
-.section-footer p {
-  padding-left: 3rem;
+.section-footer {
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -290,6 +291,7 @@ img {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    gap: 8rem;
   }
   .navigation {
     display: none;
@@ -303,12 +305,10 @@ img {
   }
 
   h2 {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
 
-  p {
-    font-size: 0.75rem;
-  }
+ 
 
   .div-fixed {
     position: static;
@@ -318,7 +318,8 @@ img {
     transform: none;
 
     height: 25rem;
-    padding: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
   }
 
   .card-info {
@@ -328,15 +329,29 @@ img {
 
   .div-scroll {
     margin-left: auto;
-    margin-top: 5rem;
-    gap: 5rem;
+    gap: 8rem;
     width: 100%;
+    margin-top: auto;
   }
 
   .section-about .container-card,
   .card-info {
-    padding: 1.5rem;
-    border-radius: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
     background-color: #1f1f1f;
+  }
+
+  .div-fixed:hover{
+    background-color: #1f1f1f;
+  }
+
+  .tech-tag{
+    padding: 0.25rem;
+    margin: -0.25rem 0;
+    border-radius: 0.5rem;
+  }
+
+  .tech-stack{
+    gap: 0.5rem;
   }
 }
