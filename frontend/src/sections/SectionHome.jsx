@@ -3,6 +3,7 @@ import linkedinIcon from "../assets/linkedin-icon.webp";
 import githubIcon from "../assets/github-icon.png";
 import phoneIcon from "../assets/phone-icon.png";
 import emailIcon from "../assets/email-icon.webp";
+import { FaGithub, FaLinkedin, FaPhone, FaEnvelope } from "react-icons/fa";
 
 function Home() {
   return (
@@ -33,30 +34,22 @@ function Home() {
         <ul className="contact-icons">
           <li>
             <a href="mailto:seanlumasag15@gmail.com" target="_blank">
-              <div className="container-img">
-                <img src={emailIcon} alt="Email" />
-              </div>
+              <FaEnvelope size={30} className="icon"/>
             </a>
           </li>
           <li>
             <a href="tel:+18622418905" target="_blank">
-              <div className="container-img">
-                <img src={phoneIcon} alt="Phone" />
-              </div>
+              <FaPhone size={30}className="icon" />
             </a>
           </li>
           <li>
             <a href="https://linkedin.com/in/seanlumasag" target="_blank">
-              <div className="container-img">
-                <img src={linkedinIcon} alt="LinkedIn" />
-              </div>
+              <FaLinkedin size={30} className="icon" />
             </a>
           </li>
           <li>
             <a href="https://github.com/seanlumasag" target="_blank">
-              <div className="container-img">
-                <img src={githubIcon} alt="GitHub" />
-              </div>
+              <FaGithub size={30} className="icon"/>
             </a>
           </li>
         </ul>

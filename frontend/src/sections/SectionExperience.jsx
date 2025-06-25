@@ -2,6 +2,7 @@ import dataStorytellingImg from "../assets/data-storytelling.png";
 import hadoopExpressImg from "../assets/hadoop-express.png";
 import tagOnlineImg from "../assets/tag-online.png";
 import CardInfo from "../components/CardInfo";
+
 function Experience() {
   return (
     <div className="section section-experience" id="experience">

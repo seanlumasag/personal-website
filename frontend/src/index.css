@@ -8,7 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  scroll-padding-top: 13rem;
+  scroll-padding-top: 12rem;
   transition-duration: 0.2s;
 }
 
@@ -52,9 +52,10 @@ img {
   width: 34.375rem;
   position: fixed;
   right: 51%;
-  top: 20%;
-  bottom: 20%;
+  top: 50%;
+  transform: translateY(-50%);
   padding: 3rem;
+  height: 34.375rem;
   border-radius: 2rem;
   background-color: #1f1f1f;
 }
@@ -65,8 +66,8 @@ img {
   margin-left: 51%;
   display: flex;
   flex-direction: column;
-  gap: 10rem;
-  margin-top: 13rem;
+  gap: 12rem;
+  margin-top: 12rem;
 }
 
 .section {
@@ -188,9 +189,9 @@ img {
 
 .section-home {
   height: 100%;
-  justify-content: space-between;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .div-fixed:hover p,
@@ -221,17 +222,20 @@ img {
 .section-home ul {
   list-style: none;
 }
-.contact-icons .container-img {
-  height: 3rem;
-  width: 3rem;
-  background-color: white;
-  border-radius: 50%;
-  border: 2px solid white;
-}
 
 .contact-icons {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
+}
+
+
+.contact-icons .icon{
+  color: white;
+  transition: color 0.01s;
+}
+
+.contact-icons .icon:hover {
+  color: var(--accent-color);
 }
 
 .section-about .container-card {

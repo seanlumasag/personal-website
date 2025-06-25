@@ -1,5 +1,6 @@
 import CardAbout from "../components/CardAbout.jsx";
 import TechTag from "../components/TechTag.jsx";
+
 function About() {
   return (
     <div className="section section-about" id="about">

@@ -1,4 +1,5 @@
 import TechTag from "./TechTag";
+
 function CardInfo({ img, link, title, t1, t2, t3, t4, t5, desc }) {
   return (
     <div className="card card-info">
@@ -9,7 +10,6 @@ function CardInfo({ img, link, title, t1, t2, t3, t4, t5, desc }) {
       </div>
       <div className="container-text">
         <h3>{title}</h3>
-        
 
         <p className="desc">{desc}</p>
         <div className="tech-stack">
