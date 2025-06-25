@@ -8,24 +8,24 @@ function Home() {
   return (
     <div className="section section-home" id="home">
       <div className="container-hero">
-        <div className="container-name-title-headshot">
+        <div className="container-text">
           <div className="container-name-title">
             <h1>Sean Lumasag</h1>
             <h3>Software Engineer</h3>
           </div>
-          <div className="container-headshot">
-            <img src={headshot} alt="headshot " />
+          <div className="home-text">
+            <p>
+              I build accessible, pixel-perfect digital experiences for the web.
+            </p>
+          </div>
+          <div className="container-button">
+            <a href="#contact" className="cta-button">
+              Contact
+            </a>
           </div>
         </div>
-        <div className="home-text">
-          <p>I build accessible, pixel-perfect digital</p>
-          <p>experiences for the web.</p>
-        </div>
-
-        <div className="container-button">
-          <a href="#contact" className="cta-button">
-            Contact
-          </a>
+        <div className="container-headshot">
+          <img src={headshot} alt="headshot " />
         </div>
       </div>
 
