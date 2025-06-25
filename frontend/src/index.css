@@ -224,7 +224,7 @@ img {
 .section-about .container-card {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .section-experience .container-card {
@@ -241,7 +241,11 @@ img {
 .card-info .container-text {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+}
+
+.card-info .container-text .desc{
+  margin-top: 0.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .section-about .container-card,
