@@ -118,7 +118,7 @@ img {
 .navigation {
   left: 51%;
   width: 34.375rem;
-  top: 5%;
+  top: 3rem;
   position: fixed;
   z-index: 999;
   display: flex;
@@ -225,7 +225,7 @@ img {
 
 .contact-icons {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .contact-icons .icon {
@@ -294,9 +294,10 @@ img {
     gap: 8rem;
   }
   .navigation {
-    display: none;
+    left: 50%;
+    transform: translateX(-50%);
   }
-  
+
   h2 {
     margin-left: 1rem;
   }
@@ -308,28 +309,17 @@ img {
     top: auto;
     transform: none;
     height: 25rem;
+    margin-top: 5rem;
   }
-
 
   .div-scroll {
-    margin-left: auto;
+    margin: auto;
     gap: 8rem;
     width: 100%;
-    margin-top: auto;
   }
-
-  .section-about .container-card,
-  .card-info {
-    background-color: #1f1f1f;
-  }
-
-  .div-fixed:hover {
-    background-color: #1f1f1f;
-  }
-
 }
 
-@media (max-width: 650px) and (min-width: 100px){
+@media (max-width: 650px) and (min-width: 100px) {
   .div-app {
     display: flex;
     flex-direction: column;
@@ -358,7 +348,6 @@ img {
     right: auto;
     top: auto;
     transform: none;
-
     height: 25rem;
     padding: 1rem;
     border-radius: 1rem;
@@ -370,10 +359,9 @@ img {
   }
 
   .div-scroll {
-    margin-left: auto;
     gap: 8rem;
     width: 100%;
-    margin-top: auto;
+    margin: auto;
   }
 
   .section-about .container-card,
@@ -391,9 +379,5 @@ img {
     padding: 0.25rem;
     margin: -0.25rem 0;
     border-radius: 0.5rem;
-  }
-
-  .tech-stack {
-    gap: 0.5rem;
   }
 }
