@@ -1,8 +1,4 @@
 import headshot from "../assets/headshot.jpg";
-import linkedinIcon from "../assets/linkedin-icon.webp";
-import githubIcon from "../assets/github-icon.png";
-import phoneIcon from "../assets/phone-icon.png";
-import emailIcon from "../assets/email-icon.webp";
 import { FaGithub, FaLinkedin, FaPhone, FaEnvelope } from "react-icons/fa";
 
 function Home() {
@@ -34,12 +30,12 @@ function Home() {
         <ul className="contact-icons">
           <li>
             <a href="mailto:seanlumasag15@gmail.com" target="_blank">
-              <FaEnvelope size={30} className="icon"/>
+              <FaEnvelope size={30} className="icon" />
             </a>
           </li>
           <li>
             <a href="tel:+18622418905" target="_blank">
-              <FaPhone size={30}className="icon" />
+              <FaPhone size={30} className="icon" />
             </a>
           </li>
           <li>
@@ -49,7 +45,7 @@ function Home() {
           </li>
           <li>
             <a href="https://github.com/seanlumasag" target="_blank">
-              <FaGithub size={30} className="icon"/>
+              <FaGithub size={30} className="icon" />
             </a>
           </li>
         </ul>

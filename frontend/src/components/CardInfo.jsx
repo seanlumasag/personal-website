@@ -1,6 +1,20 @@
 import TechTag from "./TechTag";
 
-function CardInfo({ img, link, title, t1, t2, t3, t4, t5, desc }) {
+function CardInfo({
+  img,
+  link,
+  title,
+  t1,
+  t2,
+  t3,
+  t4,
+  t5,
+  t6,
+  t7,
+  t8,
+  t9,
+  desc,
+}) {
   return (
     <div className="card card-info">
       <div className="container-logo">
@@ -27,6 +41,18 @@ function CardInfo({ img, link, title, t1, t2, t3, t4, t5, desc }) {
           </p>
           <p>
             <TechTag text={t5} />
+          </p>
+          <p>
+            <TechTag text={t6} />
+          </p>
+          <p>
+            <TechTag text={t7} />
+          </p>
+          <p>
+            <TechTag text={t8} />
+          </p>
+          <p>
+            <TechTag text={t9} />
           </p>
         </div>
       </div>

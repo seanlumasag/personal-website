@@ -1,20 +1,48 @@
 import CardSkill from "../components/CardSkill";
+import CardInfo from "../components/CardInfo";
+import websiteImg from "../assets/favicon.png";
 
 function Skills() {
   return (
     <div className="section section-skills" id="skills">
-      <h1>Skills</h1>
+      <h2>Skills</h2>
       <div className="container-card">
-        <CardSkill
-          skillType="Languages"
+        <CardInfo
+          img={websiteImg}
+          link="https://github.com"
+          title="Languages"
           t1="Java"
           t2="Python"
-          t3="JavaScript"
+          t3="C++"
+          t4="JavaScript"
+          t5="HTML"
+          t6="CSS"
         />
-        <CardSkill SkillType="Frameworks" SkillTech="React, Flask" />
-        <CardSkill
-          SkillType="Tools"
-          SkillTech="PostgreSQL, Git, Github, Terminal"
+        <CardInfo
+          img={websiteImg}
+          link="https://github.com"
+          title="Frameworks"
+          t1="React"
+          t2="Spring Boot"
+          t3="Django"
+        />
+        <CardInfo
+          img={websiteImg}
+          link="https://github.com"
+          title="Libraries"
+          t1="TensorFlow"
+          t2="Numpy"
+          t3="Pandas"
+          t4="Matplotlib"
+        />
+        <CardInfo
+          img={websiteImg}
+          link="https://github.com"
+          title="Tools"
+          t1="PostgreSQL"
+          t2="Git"
+          t3="GitHub"
+          t4="Terminal"
         />
       </div>
     </div>
