@@ -1,8 +1,7 @@
 import CardInfo from "../components/CardInfo";
-import websiteImg from "../assets/favicon.png";
 import books from "../assets/books.png";
 import code from "../assets/code.png";
-import scaffolding from "../assets/scaffolding.png";
+import folder from "../assets/folder.png";
 import wrench from "../assets/wrench.webp";
 
 function Skills() {
@@ -11,6 +10,7 @@ function Skills() {
       <h2>Skills</h2>
       <div className="container-card">
         <CardInfo
+        
           img={code}
           title="Languages"
           t1="Java"
@@ -21,7 +21,7 @@ function Skills() {
           t6="CSS"
         />
         <CardInfo
-          img={scaffolding}
+          img={folder}
           title="Frameworks"
           t1="React"
           t2="Spring Boot"
