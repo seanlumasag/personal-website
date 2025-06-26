@@ -1,6 +1,9 @@
-import CardSkill from "../components/CardSkill";
 import CardInfo from "../components/CardInfo";
 import websiteImg from "../assets/favicon.png";
+import books from "../assets/books.png";
+import code from "../assets/code.png";
+import scaffolding from "../assets/scaffolding.png";
+import wrench from "../assets/wrench.webp";
 
 function Skills() {
   return (
@@ -8,8 +11,7 @@ function Skills() {
       <h2>Skills</h2>
       <div className="container-card">
         <CardInfo
-          img={websiteImg}
-          link="https://github.com"
+          img={code}
           title="Languages"
           t1="Java"
           t2="Python"
@@ -19,16 +21,14 @@ function Skills() {
           t6="CSS"
         />
         <CardInfo
-          img={websiteImg}
-          link="https://github.com"
+          img={scaffolding}
           title="Frameworks"
           t1="React"
           t2="Spring Boot"
           t3="Django"
         />
         <CardInfo
-          img={websiteImg}
-          link="https://github.com"
+          img={books}
           title="Libraries"
           t1="TensorFlow"
           t2="Numpy"
@@ -36,8 +36,7 @@ function Skills() {
           t4="Matplotlib"
         />
         <CardInfo
-          img={websiteImg}
-          link="https://github.com"
+          img={wrench}
           title="Tools"
           t1="PostgreSQL"
           t2="Git"
