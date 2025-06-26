@@ -47,7 +47,6 @@ img {
 .accent {
   color: var(--accent-color);
 }
-/**********************************************************************************************************/
 .div-fixed {
   width: 34.375rem;
   position: fixed;
@@ -86,7 +85,6 @@ img {
   display: flex;
 }
 
-/**********************************************************************************************************/
 .card-about {
   justify-content: space-between;
 }
@@ -115,7 +113,6 @@ img {
   color: white;
 }
 
-/**********************************************************************************************************/
 .navigation {
   left: 51%;
   width: 34.375rem;
@@ -280,7 +277,7 @@ img {
   gap: 1.5rem;
 }
 
-.section-skills .container-logo{
+.section-skills .container-logo {
   padding: 0.5rem;
 }
 
