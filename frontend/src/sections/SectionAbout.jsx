@@ -6,6 +6,9 @@ function About() {
     <div className="section section-about" id="about">
       <h2>About</h2>
       <div className="container-card">
+        <CardAbout title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+      </div>
+      <div className="container-card">
         <div className="card card-about">
           <p>Tech Stack</p>
           <div className="tech-stack">

@@ -12,7 +12,8 @@ function Home() {
           </div>
           <div className="home-text">
             <p>
-              I build accessible, pixel-perfect digital experiences for the web.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
           <div className="container-button">
