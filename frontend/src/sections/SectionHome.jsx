@@ -12,13 +12,12 @@ function Home() {
           </div>
           <div className="home-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Delivering complex, innovative ideas as real products.
             </p>
           </div>
           <div className="container-button">
             <a href="#contact" className="cta-button">
-              Contact
+              Resume
             </a>
           </div>
         </div>

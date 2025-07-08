@@ -13,8 +13,8 @@ function Skills() {
         
           img={code}
           title="Languages"
-          t1="Java"
-          t2="Python"
+          t1="Python"
+          t2="Java"
           t3="C++"
           t4="JavaScript"
           t5="HTML"
@@ -23,24 +23,15 @@ function Skills() {
         <CardInfo
           img={folder}
           title="Frameworks"
-          t1="React"
-          t2="Spring Boot"
-          t3="Django"
-        />
-        <CardInfo
-          img={books}
-          title="Libraries"
-          t1="TensorFlow"
-          t2="Numpy"
-          t3="Pandas"
-          t4="Matplotlib"
+          t1="Django"
+          t2="React"
+          t3="PyTorch"
         />
         <CardInfo
           img={wrench}
           title="Tools"
           t1="PostgreSQL"
           t2="Git"
-          t3="GitHub"
           t4="Terminal"
         />
       </div>

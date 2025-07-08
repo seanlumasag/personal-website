@@ -24,7 +24,7 @@ function Experience() {
           t1="Python"
           t2="Block Coding"
           t3="Robotics"
-          desc="Led weekly STEM sessions for 20+ students, teaching Python, block coding, and robotics using platforms like WeDo and EV3, while implementing 50+ hands-on projects to reinforce concepts. Achieved a 90% module completion rate by designing and executing a structured robotics curriculum."
+          desc="Led weekly STEM instruction to students by guiding them through programming and engineering challenges, and instructed Python, block coding, and robotics concepts by utilizing WeDo, EV3, and other learning platforms."
         />
         <CardInfo
           img={tagOnlineImg}
@@ -33,7 +33,7 @@ function Experience() {
           t1="HTML"
           t2="CSS"
           t3="JavaScript"
-          desc="Enhanced UI for 500+ monthly client site visitors by developing frontend layouts using HTML, CSS, and JavaScript, while increasing average site load speed by 10% through legacy site migration to WordPress. Collaborated with 7 interns to divide tasks, customize 20+ plugins, develop branded pages, and maintain consistent styling across five legacy codebases."
+          desc="Developed responsive frontend components for business client websites by using HTML, CSS, and JavaScript, and optimized site performance by refactoring and migrating legacy websites using WordPress CMS."
         />
       </div>
     </div>

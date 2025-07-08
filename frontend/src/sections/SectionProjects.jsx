@@ -9,6 +9,16 @@ function Projects() {
         <CardInfo
           img={websiteImg}
           link="https://github.com"
+          title="CKDPredict"
+          t1="Django"
+          t2="PyTorch"
+          t3="PostgreSQL"
+          t4="React"
+          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        />
+        <CardInfo
+          img={websiteImg}
+          link="https://github.com"
           title="Personal Website"
           t1="React"
           t2="JavaScript"

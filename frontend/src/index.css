@@ -357,8 +357,8 @@ img {
   }
 
   .card-info {
-    gap: 3rem;
     gap: 1rem;
+    flex-direction: row-reverse;
   }
 
   .container-logo{
