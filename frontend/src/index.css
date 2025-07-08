@@ -48,20 +48,20 @@ img {
   color: var(--accent-color);
 }
 .div-fixed {
-  width: 34.375rem;
+  width: 35rem;
   position: fixed;
   right: 51%;
   top: 50%;
   transform: translateY(-50%);
   padding: 3rem;
-  height: 34.375rem;
+  height: 35rem;
   border-radius: 2rem;
   background-color: #1f1f1f;
 }
 
 .div-scroll {
   margin-bottom: 5rem;
-  width: 34.375rem;
+  width: 35rem;
   margin-left: 51%;
   display: flex;
   flex-direction: column;
@@ -115,7 +115,7 @@ img {
 
 .navigation {
   left: 51%;
-  width: 34.375rem;
+  width: 35rem;
   top: 3rem;
   position: fixed;
   z-index: 999;
@@ -278,8 +278,6 @@ img {
   padding: 0.5rem;
 }
 
-
-
 .section-footer {
   display: flex;
   align-items: center;
@@ -358,15 +356,15 @@ img {
 
   .card-info {
     gap: 1rem;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
-  .container-logo{
+  .container-logo {
     height: 3rem;
     width: 3rem;
     border-radius: 0.75rem;
   }
-
 
   .div-scroll {
     gap: 8rem;

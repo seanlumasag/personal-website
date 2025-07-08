@@ -32,7 +32,7 @@ function Skills() {
           title="Tools"
           t1="PostgreSQL"
           t2="Git"
-          t4="Terminal"
+          t3="Terminal"
         />
       </div>
     </div>
