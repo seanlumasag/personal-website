@@ -364,6 +364,7 @@ img {
   .container-logo{
     height: 3rem;
     width: 3rem;
+    border-radius: 0.75rem;
   }
 
 
