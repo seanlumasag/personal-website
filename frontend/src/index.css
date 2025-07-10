@@ -206,8 +206,7 @@ img {
 }
 
 .cta-button:hover {
-  background-color: white;
-  color: black;
+  background-color: rgb(1, 156, 156);
 }
 .section-home ul {
   list-style: none;
