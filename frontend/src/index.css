@@ -114,6 +114,27 @@ img {
   color: white;
 }
 
+.tech-tag:empty {
+  display: none;
+}
+
+.project-button {
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  margin: -0.5rem 0;
+  color: white;
+  background-color: #333333;
+}
+
+.project-button:hover{
+  background-color: #444444;
+}
+
+.project-button-container{
+  display: flex;
+  gap: 0.5rem;
+}
+
 .navigation {
   left: 51%;
   width: 35rem;

@@ -8,22 +8,28 @@ function Projects() {
       <div className="container-card">
         <CardInfo
           img={ckdpredict}
-          link="https://github.com"
           title="CKDPredict"
           t1="Django"
           t2="PyTorch"
           t3="PostgreSQL"
           t4="React"
+          a1="Live Demo"
+          b1="https://github.com"
+          a2="Github"
+          b2="https://github.com"
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         />
         <CardInfo
           img={websiteImg}
-          link="https://github.com"
           title="Personal Website"
           t1="React"
           t2="JavaScript"
           t3="HTML"
           t4="CSS"
+          a1="Live Demo"
+          b1="https://github.com"
+          a2="Github"
+          b2="https://github.com"
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         />
       </div>
