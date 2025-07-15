@@ -126,11 +126,11 @@ img {
   background-color: #333333;
 }
 
-.project-button:hover{
+.project-button:hover {
   background-color: #444444;
 }
 
-.project-button-container{
+.project-button-container {
   display: flex;
   gap: 0.5rem;
 }
@@ -269,6 +269,12 @@ img {
   margin-bottom: 1.25rem;
 }
 
+.tag-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 .section-about .container-card,
 .card-info {
   padding: 3rem;
@@ -405,6 +411,16 @@ img {
   }
 
   .tech-tag {
+    padding: 0.25rem;
+    margin: -0.25rem 0;
+    border-radius: 0.5rem;
+  }
+
+  .tag-container {
+    gap: 1rem;
+  }
+
+  .project-button {
     padding: 0.25rem;
     margin: -0.25rem 0;
     border-radius: 0.5rem;
