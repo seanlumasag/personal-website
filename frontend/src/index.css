@@ -101,6 +101,7 @@ img {
   height: 5rem;
   width: 5rem;
   border-radius: 1rem;
+  padding: 0.25rem;
   object-fit: cover;
   overflow: hidden;
 }
@@ -355,13 +356,13 @@ img {
 
   .card-info {
     gap: 1rem;
-    flex-direction: column;
+    flex-direction: row-reverse;
     justify-content: space-between;
   }
 
   .container-logo {
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 0.75rem;
   }
 

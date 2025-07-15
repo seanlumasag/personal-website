@@ -1,13 +1,13 @@
 import CardInfo from "../components/CardInfo";
 import websiteImg from "../assets/favicon.png";
-
+import ckdpredict from "../assets/ckdpredict.png";
 function Projects() {
   return (
     <div className="section section-projects" id="projects">
       <h2>Projects</h2>
       <div className="container-card">
         <CardInfo
-          img={websiteImg}
+          img={ckdpredict}
           link="https://github.com"
           title="CKDPredict"
           t1="Django"
