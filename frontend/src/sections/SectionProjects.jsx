@@ -14,9 +14,9 @@ function Projects() {
           t3="PostgreSQL"
           t4="React"
           a1="Live Demo"
-          b1="https://github.com"
+          b1="http://ckdpredict.vercel.app"
           a2="Github"
-          b2="https://github.com"
+          b2="https://github.com/seanlumasag/CKDPredict"
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         />
         <CardInfo
@@ -27,9 +27,9 @@ function Projects() {
           t3="HTML"
           t4="CSS"
           a1="Live Demo"
-          b1="https://github.com"
+          b1="http://seanlumasag.vercel.app"
           a2="Github"
-          b2="https://github.com"
+          b2="https://github.com/seanlumasag/personal-website"
           desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         />
       </div>
