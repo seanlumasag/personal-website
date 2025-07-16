@@ -12,8 +12,8 @@ function About() {
         <div className="card card-about">
           <p>Tech Stack</p>
           <div className="tech-stack">
+            <TechTag text="Spring Boot" />
             <TechTag text="React" />
-            <TechTag text="Django" />
             <TechTag text="PostgreSQL" />
           </div>
         </div>

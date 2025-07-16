@@ -9,10 +9,10 @@ function Projects() {
         <CardInfo
           img={ckdpredict}
           title="CKDPredict"
-          t1="Django"
-          t2="PyTorch"
-          t3="PostgreSQL"
-          t4="React"
+          t1="Spring Boot"
+          t2="PostgreSQL"
+          t3="React"
+          t4="PyTorch"
           a1="Live Demo"
           b1="http://ckdpredict.vercel.app"
           a2="Github"
