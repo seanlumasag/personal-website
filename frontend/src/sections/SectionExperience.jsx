@@ -15,7 +15,7 @@ function Experience() {
           t1="PostgreSQL"
           t2="React"
           t3="JavaScript"
-          desc="Developed payment-processing features for a transactional fundraising web application using React, PayPal API, and PostgreSQL, enabling secure user purchases and integrated Supabase into the payment system to store and manage transaction and user data"
+          desc="Developed payment-processing features for a transactional fundraising web application using React, PayPal API, and PostgreSQL, enabling secure user purchases; integrated Supabase into the payment system to store and manage transaction and user data"
         />
         <CardInfo
           img={hadoopExpressImg}
@@ -24,7 +24,7 @@ function Experience() {
           t1="Python"
           t2="Block Coding"
           t3="Robotics"
-          desc="Led weekly STEM instruction to students by guiding them through programming and engineering challenges, and instructed Python, block coding, and robotics concepts by utilizing WeDo, EV3, and other learning platforms."
+          desc="Led weekly STEM instruction to students by guiding them through programming and engineering challenges; instructed Python, block coding, and robotics concepts by utilizing WeDo, EV3, and other learning platforms."
         />
         <CardInfo
           img={tagOnlineImg}
@@ -33,7 +33,7 @@ function Experience() {
           t1="HTML"
           t2="CSS"
           t3="JavaScript"
-          desc="Developed responsive frontend components for business client websites by using HTML, CSS, and JavaScript, and optimized site performance by refactoring and migrating legacy websites using WordPress CMS."
+          desc="Developed responsive frontend components for business client websites by using HTML, CSS, and JavaScript; optimized site performance by refactoring and migrating legacy websites using WordPress CMS."
         />
       </div>
     </div>
