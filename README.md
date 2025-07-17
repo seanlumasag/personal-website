@@ -6,7 +6,7 @@ This is the source code for my personal website, showcasing my portfolio, projec
 
 ## 🌐 Live Site
 
-Visit: https://seanlumasag.vercel.app
+https://seanlumasag.vercel.app
 
 ---
 
