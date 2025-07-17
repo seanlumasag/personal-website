@@ -15,7 +15,7 @@ function Experience() {
           t1="PostgreSQL"
           t2="React"
           t3="JavaScript"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          desc="Developed payment-processing features for a transactional fundraising web application using React, PayPal API, and PostgreSQL, enabling secure user purchases and integrated Supabase into the payment system to store and manage transaction and user data"
         />
         <CardInfo
           img={hadoopExpressImg}

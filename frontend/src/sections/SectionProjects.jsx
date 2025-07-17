@@ -9,15 +9,16 @@ function Projects() {
         <CardInfo
           img={ckdpredict}
           title="CKDPredict"
-          t1="Spring Boot"
-          t2="PostgreSQL"
-          t3="React"
+          t1="React"
+          t2="Spring Boot"
+          t3="PostgreSQL"
           t4="PyTorch"
-          a1="Live Demo"
+          a1="Live Site"
           b1="http://ckdpredict.vercel.app"
           a2="Github"
           b2="https://github.com/seanlumasag/CKDPredict"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+desc="Developed a full-stack web app serving as a risk predictor of Chronic Kidney Disease based on user health inputs, designed RESTful APIs with Spring Boot, persisted prediction data using PostgreSQL, and integrated a PyTorch machine learning model via a Python microservice using FastAPI
+"
         />
         <CardInfo
           img={websiteImg}
@@ -26,11 +27,12 @@ function Projects() {
           t2="JavaScript"
           t3="HTML"
           t4="CSS"
-          a1="Live Demo"
+          a1="Live Site"
           b1="http://seanlumasag.vercel.app"
           a2="Github"
           b2="https://github.com/seanlumasag/personal-website"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                  desc="Developed a responsive personal portfolio website to showcase my experiences, projects, and skills, and built with React and deployed on Vercel for fast, scalable hosting"
+
         />
       </div>
     </div>

@@ -23,8 +23,8 @@ function Skills() {
         <CardInfo
           img={folder}
           title="Frameworks"
-          t1="Django"
-          t2="React"
+          t1="React"
+          t2="Spring Boot"
           t3="PyTorch"
         />
         <CardInfo
@@ -33,6 +33,9 @@ function Skills() {
           t1="PostgreSQL"
           t2="Git"
           t3="Terminal"
+          t4="Vercel"
+          t5="Render"
+          t6="Neon"
         />
       </div>
     </div>

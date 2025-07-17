@@ -11,8 +11,10 @@ function Home() {
             <h3>Software Engineer</h3>
           </div>
           <div className="home-text">
-            <p>Transforming complex, innovative ideas</p>
-            <p>into real, impactful products</p>
+            <p>
+              Transforming complex, innovative ideas into real, impactful
+              solutions
+            </p>
           </div>
           <div className="container-button">
             <a href="#contact" className="cta-button">

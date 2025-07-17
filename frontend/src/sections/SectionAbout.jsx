@@ -6,14 +6,14 @@ function About() {
     <div className="section section-about" id="about">
       <h2>About</h2>
       <div className="container-card">
-        <CardAbout title="Computer Science and Data Science student at Rutgers University–New Brunswick with a passion for software engineering, machine learning, and artificial intelligence. Actively seeking internship opportunities and always open to connecting with professionals, peers, and mentors in the tech industry." />
+        <CardAbout title="Computer Science and Data Science student at Rutgers University–New Brunswick with a passion for software engineering and machine learning. Actively seeking internship opportunities and always open to connecting with professionals, peers, and mentors in the tech industry." />
       </div>
       <div className="container-card">
         <div className="card card-about">
           <p>Tech Stack</p>
           <div className="tech-stack">
-            <TechTag text="Spring Boot" />
             <TechTag text="React" />
+            <TechTag text="Spring Boot" />
             <TechTag text="PostgreSQL" />
           </div>
         </div>

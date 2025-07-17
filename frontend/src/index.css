@@ -185,7 +185,7 @@ img {
 .container-hero {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .container-headshot {
@@ -339,6 +339,10 @@ img {
     margin-top: 5rem;
   }
 
+  .container-hero{
+    gap: 8rem;
+  }
+
   .div-scroll {
     margin: auto;
     gap: 8rem;
@@ -408,6 +412,10 @@ img {
 
   .div-fixed:hover {
     background-color: #1f1f1f;
+  }
+
+  .container-hero{
+    gap: 1rem;
   }
 
   .tech-tag {
