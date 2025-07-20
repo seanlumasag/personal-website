@@ -57,6 +57,7 @@ img {
   height: 35rem;
   border-radius: 2rem;
   background-color: #1f1f1f;
+  display: flex;
 }
 
 .div-scroll {
