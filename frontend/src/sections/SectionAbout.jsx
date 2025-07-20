@@ -5,20 +5,30 @@ import { Fade } from "react-awesome-reveal";
 
 function About() {
   return (
-    <Fade
-      cascade
-      direction={"up"}
-      damping={0.15}
-      delay={100}
-      duration={800}
-      fraction={0.3}
-      triggerOnce
-    >
-      <div className="section section-about" id="about">
-        <h2>About</h2>
+    <div className="section section-about" id="about">
+      <h2>About</h2>
+      <Fade
+        cascade
+        direction={"up"}
+        damping={0.15}
+        delay={100}
+        duration={800}
+        fraction={0.3}
+        triggerOnce
+      >
         <div className="container-card">
           <CardAbout title="Computer Science and Data Science student at Rutgers University–New Brunswick with a passion for software engineering and machine learning. Actively seeking internship opportunities and always open to connecting with professionals, peers, and mentors in the tech industry." />
         </div>
+      </Fade>
+      <Fade
+        cascade
+        direction={"up"}
+        damping={0.15}
+        delay={100}
+        duration={800}
+        fraction={0.3}
+        triggerOnce
+      >
         <div className="container-card">
           <div className="card card-about">
             <p>Tech Stack</p>
@@ -33,8 +43,8 @@ function About() {
           <CardAbout title="Expected Graduation" text="2027" />
           <CardAbout title="Location" text="New Jersey, US" />
         </div>
-      </div>
-    </Fade>
+      </Fade>
+    </div>
   );
 }
 
