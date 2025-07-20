@@ -1,6 +1,15 @@
+/* ============================= */
+/*          ROOT VARIABLES       */
+/* ============================= */
 :root {
   background-color: #181818;
   --accent-color: teal;
+  --accent-hover: #019d9d;
+  --bg-color: #181818;
+  --card-hover-bg-color: #1f1f1f;
+  --p-color: #aaaaaa;
+  --p-hover-color: #d3d3d3;
+
 }
 
 * {
@@ -33,7 +42,7 @@ a {
 }
 
 p {
-  color: #aaaaaa;
+  color: var(--p-color);
   font-size: 1rem;
 }
 p:empty {
@@ -47,6 +56,10 @@ img {
 .accent {
   color: var(--accent-color);
 }
+
+/* ============================= */
+/*         BASE STYLES           */
+/* ============================= */
 .div-fixed {
   width: 35rem;
   position: fixed;
@@ -56,7 +69,7 @@ img {
   padding: 3rem;
   height: 35rem;
   border-radius: 2rem;
-  background-color: #1f1f1f;
+  background-color: var(--card-hover-bg-color);
   display: flex;
 }
 
@@ -146,6 +159,9 @@ img {
   justify-content: center;
 }
 
+/* ============================= */
+/*         COMPONENTS            */
+/* ============================= */
 .container-navbar {
   display: flex;
   justify-content: space-between;
@@ -167,15 +183,11 @@ img {
   padding: 1rem;
   margin: -1rem 0;
   border-radius: 1rem;
-  color: #aaaaaa;
+  color: var(--p-color);
 }
 
 .container-navbar:hover {
-  background-color: #1f1f1f;
-}
-
-.container-navbar:hover a {
-  color: #d3d3d3;
+  background-color: var(--card-hover-bg-color);
 }
 
 .navigation a:hover {
@@ -202,7 +214,7 @@ img {
 }
 
 .section-home h3 {
-  color: #aaaaaa;
+  color: var(--p-color);
 }
 
 .section-home {
@@ -229,7 +241,7 @@ img {
 }
 
 .cta-button:hover {
-  background-color: rgb(1, 156, 156);
+  background-color: var(--accent-hover)
 }
 .section-home ul {
   list-style: none;
@@ -284,14 +296,15 @@ img {
 
 .section-about .container-card:hover,
 .card-info:hover {
-  background-color: #1f1f1f;
+  background-color: var(--card-hover-bg-color);
 }
 
 .section-about .container-card:hover p,
 .card-info:hover .desc,
 .div-fixed:hover p,
-.div-fixed:hover h3 {
-  color: #d3d3d3;
+.div-fixed:hover h3,
+.container-navbar:hover a {
+  color: var(--p-hover-color);
 }
 
 .section-about .container-card:hover .tech-tag {
@@ -311,6 +324,9 @@ img {
   align-items: center;
 }
 
+/* ============================= */
+/*     MEDIA QUERIES & MOBILE    */
+/* ============================= */
 @media (max-width: 1150px) and (min-width: 650px) {
   .div-app {
     display: flex;

@@ -19,16 +19,6 @@ function About() {
         <div className="container-card">
           <CardAbout title="Computer Science and Data Science student at Rutgers University–New Brunswick with a passion for software engineering and machine learning. Actively seeking internship opportunities and always open to connecting with professionals, peers, and mentors in the tech industry." />
         </div>
-      </Fade>
-      <Fade
-        cascade
-        direction={"up"}
-        damping={0.15}
-        delay={100}
-        duration={800}
-        fraction={0.3}
-        triggerOnce
-      >
         <div className="container-card">
           <div className="card card-about">
             <p>Tech Stack</p>
