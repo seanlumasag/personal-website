@@ -24,9 +24,9 @@ function Experience() {
             link="https://devonmcguinness.com"
             title="Software Engineering Intern"
             t1="PostgreSQL"
-            t2="React"
-            t3="JavaScript"
-            desc="Developed transactional backend features for a fundraising web application; implemented real-time synchronization of user and payment data across database tables"
+            t2="JavaScript"
+            t3="React"
+            desc="Developed transactional backend features for a fundraising web application using PostgreSQL, JavaScript and React; implemented real-time synchronization of user and payment data by integrating Supabase and PayPal APIs."
           />
           <CardInfo
             img={hadoopExpressImg}
