@@ -14,7 +14,7 @@ function Home() {
             <p>Building innovative projects to solve meaningful problems</p>
           </div>
           <div className="container-button">
-            <a href="#contact" className="cta-button">
+            <a href="/Lumasag_Sean_Resume.pdf" className="cta-button">
               Resume
             </a>
           </div>
