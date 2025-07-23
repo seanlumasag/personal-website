@@ -12,8 +12,8 @@ This is the source code for my personal website, showcasing my portfolio, projec
 
 ## ⚙️ Tech Stack
 
-- Frontend: React, JavaScript, HTML, CSS
-- Deployment: Vercel (React)
+- **Frontend**: React, JavaScript, HTML, CSS
+- **Deployment**: Vercel (React)
 
 ---
 
