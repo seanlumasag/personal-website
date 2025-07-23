@@ -19,18 +19,6 @@ function Projects() {
           triggerOnce
         >
           <CardInfo
-            img=""
-            title="QuantiBot"
-            t1="React"
-            t2="Spring Boot"
-            t3="PostgreSQL"
-            t4="PyTorch"
-            a1="In Progress"
-            a2="Github"
-            b2="https://github.com/seanlumasag/QuantiBot"
-            desc="Currently developing a full-stack web application serving as a quantitative trading bot based on the live stock market and user parameters."
-          />
-          <CardInfo
             img={ckdpredict}
             title="CKDPredict"
             t1="React"
