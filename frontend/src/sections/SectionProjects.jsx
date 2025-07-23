@@ -28,7 +28,7 @@ function Projects() {
             a1="In Progress"
             a2="Github"
             b2="https://github.com/seanlumasag/QuantiBot"
-            desc="Currently developing a full-stack web app serving as a quantitative trading bot based on the live stock market and user parameters."
+            desc="Currently developing a full-stack web application serving as a quantitative trading bot based on the live stock market and user parameters."
           />
           <CardInfo
             img={ckdpredict}
@@ -41,7 +41,7 @@ function Projects() {
             b1="http://ckdpredict.vercel.app"
             a2="Github"
             b2="https://github.com/seanlumasag/CKDPredict"
-            desc="Developed a full-stack web app serving as a risk predictor of Chronic Kidney Disease based on user health inputs; designed RESTful APIs with Spring Boot, persisted prediction data using PostgreSQL, and integrated a PyTorch machine learning model via a Python microservice using FastAPI"
+            desc="Developed a full-stack web application serving as a risk predictor of Chronic Kidney Disease based on user health inputs; designed RESTful APIs with Spring Boot, persisted prediction data using PostgreSQL, and integrated a PyTorch machine learning model via a Python microservice using FastAPI"
           />
           <CardInfo
             img={websiteImg}
