@@ -41,10 +41,7 @@ function Skills() {
             title="Tools"
             t1="PostgreSQL"
             t2="Git"
-            t3="Terminal"
-            t4="Vercel"
-            t5="Render"
-            t6="Neon"
+            t3="VSCode"
           />
         </Fade>
       </div>
