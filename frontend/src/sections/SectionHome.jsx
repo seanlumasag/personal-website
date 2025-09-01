@@ -8,7 +8,7 @@ function Home() {
         <div className="container-text">
           <div className="container-name-title">
             <h1>Sean Lumasag</h1>
-            <h3>Software Engineer</h3>
+            <h3>Software Developer</h3>
           </div>
           <div className="home-text">
             <p>Building innovative projects to solve meaningful problems</p>
