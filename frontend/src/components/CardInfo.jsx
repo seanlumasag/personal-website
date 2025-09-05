@@ -33,6 +33,7 @@ function CardInfo({
         <p className="desc">{desc}</p>
         <div className="tag-container">
           <div className="tech-stack">
+            {a2 && <ProjectButton text={a2} link={b2} />}
             {t1 && <TechTag text={t1} />}
             {t2 && <TechTag text={t2} />}
             {t3 && <TechTag text={t3} />}
@@ -43,10 +44,7 @@ function CardInfo({
             {t8 && <TechTag text={t8} />}
             {t9 && <TechTag text={t9} />}
           </div>
-          <div className="project-button-container">
-            {a1 && <ProjectButton text={a1} link={b1} />}
-            {a2 && <ProjectButton text={a2} link={b2} />}
-          </div>
+          <div className="project-button-container"></div>
         </div>
       </div>
     </div>
