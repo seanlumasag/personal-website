@@ -2,6 +2,8 @@ import dataStorytellingImg from "../assets/data-storytelling.png";
 import hadoopExpressImg from "../assets/hadoop-express.png";
 import tagOnlineImg from "../assets/tag-online.png";
 import CardInfo from "../components/CardInfo";
+import blueprint from "../assets/blueprint.jpeg";
+import rutgers from "../assets/rutgers.jpeg";
 
 import { Fade } from "react-awesome-reveal";
 
@@ -20,22 +22,23 @@ function Experience() {
           triggerOnce
         >
           <CardInfo
-            img={""}
-            link="https://winlab.rutgers.edu"
+            img={rutgers}
+            link="https://www.rutgers.edu"
             title="Machine Learning Research Intern"
             t1="Python"
             t2="PyTorch"
-            t3="Scikit-learn"
-            desc="In progress"
+            t3="Torchvision"
+            t4="NumPy"
+            desc="Collaborating with research team members to evaluate model performance using industry standard metrics to identify areas for improvement in model design."
           />
           <CardInfo
-            img={""}
+            img={blueprint}
             link="https://www.linkedin.com/company/blueprint-rutgers/"
             title="Software Engineering Fellow"
             t1="Python"
             t2="SQL"
             t3="Git"
-            desc="In progress"
+            desc="Selected for a backend software development fellowship, developing Python, SQL, and Git/GitHub skills through hands-on projects in database management, client-server systems, and HTTP protocols."
           />
           <CardInfo
             img={dataStorytellingImg}
