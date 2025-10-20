@@ -20,6 +20,24 @@ function Experience() {
           triggerOnce
         >
           <CardInfo
+            img={""}
+            link="https://winlab.rutgers.edu"
+            title="Machine Learning Research Intern"
+            t1="Python"
+            t2="PyTorch"
+            t3="Scikit-learn"
+            desc="In progress"
+          />
+          <CardInfo
+            img={""}
+            link="https://www.linkedin.com/company/blueprint-rutgers/"
+            title="Software Engineering Fellow"
+            t1="Python"
+            t2="SQL"
+            t3="Git"
+            desc="In progress"
+          />
+          <CardInfo
             img={dataStorytellingImg}
             link="https://devonmcguinness.com"
             title="Software Engineering Intern"
