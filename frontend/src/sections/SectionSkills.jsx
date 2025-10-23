@@ -42,6 +42,8 @@ function Skills() {
             t1="PostgreSQL"
             t2="Git"
             t3="VSCode"
+            t4="Supabase"
+            t5="WordPress"
           />
         </Fade>
       </div>
