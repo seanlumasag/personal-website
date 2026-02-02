@@ -5,8 +5,9 @@
   --surface: #000000;
   --surface-alt: #0b0f14;
   --border: #1f2530;
-  --accent: #3ddcff;
-  --accent-hover: #6be6ff;
+  --accent: #22d3ee;
+  --accent-hover: #67e8f9;
+
   --content-width: 960px;
   --sidebar-width: 200px;
   --sidebar-offset: calc(var(--sidebar-width) / 2);
@@ -16,7 +17,7 @@
   --dot-spacing: 22px;
   --dot-translate: 0px;
 
-  font-family: 'IBM Plex Sans', 'SF Pro Text', 'Segoe UI', sans-serif;
+  font-family: "IBM Plex Sans", "SF Pro Text", "Segoe UI", sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: var(--text-primary);
@@ -72,7 +73,7 @@ main {
 
 .parallax-bg::before,
 .parallax-bg::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
@@ -80,7 +81,8 @@ main {
 
 .parallax-bg::before {
   z-index: 0;
-  background-image: radial-gradient(
+  background-image:
+    radial-gradient(
       60% 60% at 15% 20%,
       rgba(61, 220, 255, 0.16),
       transparent 70%
