@@ -293,9 +293,12 @@
   border-radius: 14px;
   overflow: hidden;
   background: var(--card-background);
-  transition: transform 500ms ease;
+  position: relative;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease;
   width: 100%;
 }
+
 
 .terminal-bar {
   display: flex;
@@ -340,19 +343,28 @@
 }
 
 .terminal-link {
-  color: inherit;
+  color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid rgba(154, 164, 178, 0.35);
+  border-bottom: none;
+  border-bottom: 1px solid transparent;
   transition: color 200ms ease, border-color 200ms ease;
+}
+
+.terminal-link:visited,
+.terminal-link:focus-visible {
+  color: var(--accent);
 }
 
 .terminal-link:hover,
 .terminal-link:focus-visible {
-  color: #e6e6e8;
-  border-color: rgba(230, 230, 232, 0.7);
+  border-color: rgba(61, 220, 255, 0.8);
 }
 
 .terminal-warm {
+  color: #e6e6e8;
+}
+
+.terminal-quote {
   color: #e6e6e8;
 }
 
@@ -411,7 +423,10 @@
   padding: 1.5rem;
   display: grid;
   gap: 1rem;
-  transition: transform 500ms ease;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease;
 }
 
 .skills-card h3 {
@@ -448,14 +463,40 @@
   padding: 1.5rem;
   display: grid;
   gap: 1.25rem;
-  transition: transform 500ms ease;
+  position: relative;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease;
 }
 
-.project-card:hover,
-.skills-card:hover,
-.terminal-card:hover {
-  transform: scale(1.01);
+
+.terminal-card::after,
+.project-card::after,
+.skills-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: rgba(255, 255, 255, 0.04);
+  opacity: 0;
+  transition: opacity 240ms ease;
+  pointer-events: none;
 }
+
+.terminal-card:hover,
+.project-card:hover,
+.skills-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+.terminal-card:hover::after,
+.project-card:hover::after,
+.skills-card:hover::after {
+  opacity: 1;
+}
+
 
 
 .project-row {

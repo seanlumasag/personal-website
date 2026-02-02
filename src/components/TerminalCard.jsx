@@ -14,40 +14,48 @@ const TerminalCard = () => {
           <p>&gt; Sean.contact</p>
           <p className="terminal-accent">
             [
+            <span className="terminal-quote">&quot;</span>
             <a className="terminal-link" href="mailto:seanlumasag15@gmail.com">
-              &quot;seanlumasag15@gmail.com&quot;
+              seanlumasag15@gmail.com
             </a>
+            <span className="terminal-quote">&quot;</span>
             ,{' '}
+            <span className="terminal-quote">&quot;</span>
             <a
               className="terminal-link"
               href="https://www.linkedin.com/in/seanlumasag/"
               target="_blank"
               rel="noreferrer"
             >
-              &quot;LinkedIn&quot;
+              LinkedIn
             </a>
+            <span className="terminal-quote">&quot;</span>
             ,{' '}
+            <span className="terminal-quote">&quot;</span>
             <a
               className="terminal-link"
               href="https://github.com/seanlumasag"
               target="_blank"
               rel="noreferrer"
             >
-              &quot;GitHub&quot;
+              GitHub
             </a>
+            <span className="terminal-quote">&quot;</span>
             ]
           </p>
           <p>&nbsp;</p>
           <p>&gt; Sean.resume</p>
           <p className="terminal-accent">
+            <span className="terminal-quote">&quot;</span>
             <a
               className="terminal-link"
               href="/Lumasag_Sean_Resume.pdf"
               target="_blank"
               rel="noreferrer"
             >
-              &quot;resume.pdf&quot;
+              resume.pdf
             </a>
+            <span className="terminal-quote">&quot;</span>
           </p>
           <p>&nbsp;</p>
           <p>&gt; Sean.education</p>
