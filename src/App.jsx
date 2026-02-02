@@ -203,7 +203,7 @@ function App() {
 
     let raf = 0
     const update = () => {
-      const offset = -window.scrollY * 0.2
+      const offset = -window.scrollY * 0.5
       document.documentElement.style.setProperty('--dot-translate', `${offset}px`)
       raf = 0
     }
