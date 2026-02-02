@@ -1,16 +1,42 @@
-# React + Vite
+# Sean Lumasag — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast, minimal portfolio site that highlights backend-focused software engineering work, selected projects, and skills with a clean terminal-inspired UI.
 
-Currently, two official plugins are available:
+## Highlights
+- Terminal-inspired hero and profile card with contact + resume links.
+- Projects and experience sections built as reusable cards.
+- Animated type and matrix-scramble hover effects with reduced-motion support.
+- Scroll-based reveal animations and a parallax dotted background.
+- Responsive layout with a persistent side nav for quick section jumps.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React 19
+- Vite
+- CSS (custom design system + animations)
 
-## React Compiler
+## Sections
+- Hero
+- Terminal Card (location, contact, resume, education, languages)
+- Projects
+- Experience
+- Skills
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Local Development
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Content Updates
+- Update project cards in `src/components/Projects.jsx`.
+- Update experience details in `src/components/Experience.jsx`.
+- Update skills in `src/components/Skills.jsx`.
+- Update contact links in `src/components/TerminalCard.jsx`.
