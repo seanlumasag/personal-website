@@ -9,19 +9,17 @@ const Skills = () => {
           <article className="skills-card">
             <h3>Languages</h3>
             <ul className="skill-list">
-              <li>JavaScript</li>
-              <li>TypeScript</li>
+              <li>Java</li>
               <li>Python</li>
+              <li>TypeScript</li>
               <li>Java</li>
             </ul>
           </article>
           <article className="skills-card">
             <h3>Frameworks</h3>
             <ul className="skill-list">
+              <li>Spring Boot</li>
               <li>React</li>
-              <li>Next.js</li>
-              <li>Node.js</li>
-              <li>Express</li>
             </ul>
           </article>
           <article className="skills-card">

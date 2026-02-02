@@ -13,11 +13,42 @@ const TerminalCard = () => {
           <p>&nbsp;</p>
           <p>&gt; Sean.contact</p>
           <p className="terminal-accent">
-            [&quot;seanlumasag15@email.com&quot;, &quot;LinkedIn&quot;, &quot;GitHub&quot;]
+            [
+            <a className="terminal-link" href="mailto:seanlumasag15@gmail.com">
+              &quot;seanlumasag15@gmail.com&quot;
+            </a>
+            ,{' '}
+            <a
+              className="terminal-link"
+              href="https://www.linkedin.com/in/seanlumasag/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              &quot;LinkedIn&quot;
+            </a>
+            ,{' '}
+            <a
+              className="terminal-link"
+              href="https://github.com/seanlumasag"
+              target="_blank"
+              rel="noreferrer"
+            >
+              &quot;GitHub&quot;
+            </a>
+            ]
           </p>
           <p>&nbsp;</p>
           <p>&gt; Sean.resume</p>
-          <p className="terminal-accent">&quot;resume.pdf&quot;</p>
+          <p className="terminal-accent">
+            <a
+              className="terminal-link"
+              href="/Lumasag_Sean_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              &quot;resume.pdf&quot;
+            </a>
+          </p>
           <p>&nbsp;</p>
           <p>&gt; Sean.education</p>
           <p className="terminal-accent">&quot;Rutgers University–New Brunswick&quot;</p>
