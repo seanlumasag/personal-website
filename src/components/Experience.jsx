@@ -13,7 +13,6 @@ const Experience = () => {
             <div className="project-content">
               <h3>Software Engineer Intern</h3>
               <p className="experience-org">Data Storytelling</p>
-              <p className="experience-dates">Jan 2023 - Present</p>
               <p>
                 Built user-facing features, improved performance, and partnered
                 with design to ship polished experiences.

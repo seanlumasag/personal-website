@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     const selector =
-      '.section > *, .project-card > *, .skills-card > *, .terminal-card > *, .projects-header, .projects-inner > *, .type-title'
+      '.section > *, .project-card > *, .terminal-card > *, .projects-header, .projects-inner > *, .type-title, .skills-row > *, .skills-item'
     const elements = Array.from(document.querySelectorAll(selector))
 
     elements.forEach((el) => el.classList.add('reveal'))
