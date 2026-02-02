@@ -58,9 +58,6 @@ const TerminalCard = () => {
             [&quot;Java&quot;, &quot;Python&quot;, &quot;TypeScript&quot;]
           </p>
           <p>&nbsp;</p>
-          <p>
-            &gt; <span className="terminal-text"> </span>
-          </p>
         </div>
       </div>
     </section>
