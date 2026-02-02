@@ -207,6 +207,14 @@
   transition: color 120ms ease;
 }
 
+.matrix-word {
+  display: inline-block;
+}
+
+.matrix-space {
+  white-space: pre;
+}
+
 .matrix-char:hover {
   color: var(--accent);
 }

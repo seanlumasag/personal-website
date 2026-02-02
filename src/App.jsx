@@ -23,13 +23,26 @@ function App() {
       if (el.dataset.typing === '1') return
       const text = el.textContent ?? ''
       el.textContent = ''
-      Array.from(text).forEach((char) => {
-        const span = document.createElement('span')
-        span.className = 'matrix-char'
-        span.dataset.originalChar = char
-        span.dataset.scramble = /[A-Za-z0-9]/.test(char) ? '1' : '0'
-        span.innerHTML = char === ' ' ? '&nbsp;' : char
-        el.appendChild(span)
+      text.split(/(\s+)/).forEach((token) => {
+        if (!token) return
+        if (/^\s+$/.test(token)) {
+          const space = document.createElement('span')
+          space.className = 'matrix-space'
+          space.textContent = token
+          el.appendChild(space)
+          return
+        }
+        const word = document.createElement('span')
+        word.className = 'matrix-word'
+        Array.from(token).forEach((char) => {
+          const span = document.createElement('span')
+          span.className = 'matrix-char'
+          span.dataset.originalChar = char
+          span.dataset.scramble = /[A-Za-z0-9]/.test(char) ? '1' : '0'
+          span.textContent = char
+          word.appendChild(span)
+        })
+        el.appendChild(word)
       })
       el.classList.add('matrix-scramble')
       el.dataset.wrapped = '1'
@@ -43,7 +56,7 @@ function App() {
       const interval = setInterval(() => {
         span.textContent = charset[Math.floor(Math.random() * charset.length)]
         tick += 1
-        if (tick > 3) {
+        if (tick > 8) {
           clearInterval(interval)
           span.textContent = original
           span.dataset.scrambling = '0'
@@ -53,15 +66,21 @@ function App() {
 
     const attachMatrix = (el) => {
       wrapText(el)
+      if (el.dataset.matrixAttached === '1') return
+      el.dataset.matrixAttached = '1'
       el.addEventListener('pointerover', (event) => {
         const target = event.target
-        if (
-          target instanceof HTMLElement &&
-          target.classList.contains('matrix-char') &&
-          target.dataset.scramble === '1'
-        ) {
-          scrambleChar(target)
-        }
+        if (!(target instanceof HTMLElement)) return
+        const word = target.closest('.matrix-word')
+        if (!word || !el.contains(word)) return
+        if (word.dataset.scrambling === '1') return
+        word.dataset.scrambling = '1'
+        word.querySelectorAll('.matrix-char[data-scramble="1"]').forEach((span) => {
+          scrambleChar(span)
+        })
+        setTimeout(() => {
+          word.dataset.scrambling = '0'
+        }, 900)
       })
     }
 
