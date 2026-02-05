@@ -7,8 +7,13 @@ const Experience = () => {
         </div>
         <div className="project-stack">
           <article className="project-card project-row">
-            <div className="project-media">
-              <div className="media-gradient alt-one" />
+            <div className="project-media project-media--logo">
+              <img
+                src="/datastorytelling.png"
+                alt="Data Storytelling experience preview"
+                className="project-media-image project-media-image--logo"
+                loading="lazy"
+              />
             </div>
             <div className="project-content">
               <h3>Software Engineer Intern</h3>
@@ -28,8 +33,13 @@ const Experience = () => {
             </div>
           </article>
           <article className="project-card project-row">
-            <div className="project-media">
-              <div className="media-gradient alt-two" />
+            <div className="project-media project-media--logo">
+              <img
+                src="/hadoop.png"
+                alt="Hadoop Express experience preview"
+                className="project-media-image project-media-image--logo"
+                loading="lazy"
+              />
             </div>
             <div className="project-content">
               <h3>Coding Instructor</h3>

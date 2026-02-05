@@ -8,7 +8,12 @@ const Projects = () => {
         <div className="project-stack">
         <article className="project-card project-row">
             <div className="project-media">
-              <div className="media-gradient alt-one" />
+              <img
+                src="/livechat.png"
+                alt="Live Messaging App interface preview"
+                className="project-media-image project-media-image--livechat"
+                loading="lazy"
+              />
             </div>
             <div className="project-content">
               <h3>Live Messaging App</h3>
@@ -47,7 +52,12 @@ const Projects = () => {
 
         <article className="project-card project-row">
             <div className="project-media">
-              <div className="media-gradient alt-two" />
+              <img
+                src="/jobtrack.png"
+                alt="Job Application Tracker dashboard preview"
+                className="project-media-image project-media-image--jobtrack"
+                loading="lazy"
+              />
             </div>
             <div className="project-content">
               <h3>Job Application Tracker</h3>
@@ -86,7 +96,12 @@ const Projects = () => {
 
         <article className="project-card project-row">
             <div className="project-media">
-              <div className="media-gradient alt-three" />
+              <img
+                src="/apigateway.png"
+                alt="API Gateway service visualization"
+                className="project-media-image project-media-image--apigateway"
+                loading="lazy"
+              />
             </div>
             <div className="project-content">
               <h3>API Gateway</h3>
