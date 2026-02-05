@@ -59,11 +59,13 @@ const TerminalCard = () => {
           </p>
           <p>&nbsp;</p>
           <p>&gt; Sean.education</p>
-          <p className="terminal-accent">&quot;Rutgers University–New Brunswick&quot;</p>
+          <p className="terminal-accent">
+            &quot;Rutgers University–New Brunswick&quot;
+          </p>
           <p>&nbsp;</p>
           <p>&gt; Sean.languages</p>
           <p className="terminal-warm">
-            [&quot;Java&quot;, &quot;Python&quot;, &quot;TypeScript&quot;]
+            [&quot;Java&quot;, &quot;Python&quot;, &quot;JavaScript&quot;]
           </p>
           <p>&nbsp;</p>
         </div>

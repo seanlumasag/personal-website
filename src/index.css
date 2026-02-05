@@ -84,23 +84,23 @@ main {
   background-image:
     radial-gradient(
       60% 60% at 15% 20%,
-      rgba(20, 140, 170, 0.03),
+      rgba(34, 211, 238, 0.12),
       transparent 70%
     ),
     radial-gradient(
       55% 55% at 85% 30%,
-      rgba(125, 85, 255, 0.14),
+      rgba(34, 211, 238, 0.18),
       transparent 65%
     ),
     radial-gradient(
       50% 50% at 35% 80%,
-      rgba(18, 120, 150, 0.025),
+      rgba(34, 211, 238, 0.1),
       transparent 70%
     );
   background-size: 160% 160%;
   background-position: 0% 0%;
-  filter: blur(12px);
-  opacity: 0.5;
+  filter: blur(10px);
+  opacity: 0.7;
   mix-blend-mode: screen;
   animation: ambient-drift 14s ease-in-out infinite;
   transform: translateZ(0);

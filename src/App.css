@@ -484,11 +484,22 @@
 }
 
 .skills-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 36px;
   height: 36px;
+  padding: 5px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.skills-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .skills-name {
@@ -584,6 +595,10 @@
 
 .media-gradient.alt-two {
   background: linear-gradient(135deg, #e0d8ff 0%, #f6f1ff 55%, #ffd2e1 100%);
+}
+
+.media-gradient.alt-three {
+  background: linear-gradient(135deg, #ccecff 0%, #e6f7ff 55%, #bfe3ff 100%);
 }
 
 .project-content {
