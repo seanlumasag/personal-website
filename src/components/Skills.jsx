@@ -3,7 +3,7 @@ const Skills = () => {
     <section id="skills" className="section skills">
       <div className="skills-inner">
         <div className="projects-header">
-          <h2>My technical skills</h2>
+          <h2>My technical skills.</h2>
         </div>
         <div className="skills-rows">
           <article className="skills-row">
@@ -34,7 +34,7 @@ const Skills = () => {
                 </span>
                 <div>
                   <p className="skills-name">Python</p>
-                  <p className="skills-meta">Data + automation</p>
+                  <p className="skills-meta">Automation</p>
                 </div>
               </div>
               <div className="skills-item">
@@ -48,7 +48,7 @@ const Skills = () => {
                 </span>
                 <div>
                   <p className="skills-name">JavaScript</p>
-                  <p className="skills-meta">Frontend scripting</p>
+                  <p className="skills-meta">Frontend</p>
                 </div>
               </div>
               <div className="skills-item">
@@ -76,7 +76,7 @@ const Skills = () => {
                 </span>
                 <div>
                   <p className="skills-name">C++</p>
-                  <p className="skills-meta">Systems programming</p>
+                  <p className="skills-meta">Systems</p>
                 </div>
               </div>
               <div className="skills-item">
@@ -137,7 +137,7 @@ const Skills = () => {
                 </span>
                 <div>
                   <p className="skills-name">JPA/Hibernate</p>
-                  <p className="skills-meta">ORM + persistence</p>
+                  <p className="skills-meta">ORM</p>
                 </div>
               </div>
             </div>
@@ -156,7 +156,7 @@ const Skills = () => {
                 </span>
                 <div>
                   <p className="skills-name">PostgreSQL</p>
-                  <p className="skills-meta">Relational database</p>
+                  <p className="skills-meta">Database</p>
                 </div>
               </div>
               <div className="skills-item">
@@ -170,7 +170,7 @@ const Skills = () => {
                 </span>
                 <div>
                   <p className="skills-name">Redis</p>
-                  <p className="skills-meta">Caching + rate limits</p>
+                  <p className="skills-meta">Caching</p>
                 </div>
               </div>
               <div className="skills-item">
@@ -226,7 +226,7 @@ const Skills = () => {
                 </span>
                 <div>
                   <p className="skills-name">Git</p>
-                  <p className="skills-meta">Version control</p>
+                  <p className="skills-meta">Versioning</p>
                 </div>
               </div>
               <div className="skills-item">

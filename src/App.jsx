@@ -35,6 +35,13 @@ function App() {
 
   return (
     <div className="app" id="top">
+      <header className="top-nav">
+        <nav className="top-nav-inner" aria-label="Primary">
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+        </nav>
+      </header>
       <div className="page">
         <Hero />
         <TerminalCard />
