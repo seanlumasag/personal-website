@@ -1,8 +1,18 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { Experience, Hero, Projects, Skills, TerminalCard } from './components'
 
 function App() {
+  const [theme, setTheme] = useState('light')
+
+  useEffect(() => {
+    const stored = window.localStorage.getItem('theme')
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const initial = stored ?? (prefersDark ? 'dark' : 'light')
+    document.documentElement.dataset.theme = initial
+    setTheme(initial)
+  }, [])
+
   useEffect(() => {
     const selector =
       '.section > *, .project-card > *, .terminal-card > *, .projects-header, .projects-inner > *, .skills-row > *, .skills-item'
@@ -33,6 +43,13 @@ function App() {
     return () => observer.disconnect()
   }, [])
 
+  const toggleTheme = () => {
+    const next = theme === 'dark' ? 'light' : 'dark'
+    document.documentElement.dataset.theme = next
+    window.localStorage.setItem('theme', next)
+    setTheme(next)
+  }
+
   return (
     <div className="app" id="top">
       <header className="top-nav">
@@ -51,6 +68,14 @@ function App() {
       </div>
       <footer className="footer">
         <div className="footer-inner">
+          <label className="theme-toggle" aria-label="Toggle color theme">
+            <input
+              type="checkbox"
+              checked={theme === 'dark'}
+              onChange={toggleTheme}
+            />
+            <span className="theme-slider" aria-hidden="true" />
+          </label>
           <p>© 2026 Sean Lumasag. All rights reserved.</p>
         </div>
       </footer>
