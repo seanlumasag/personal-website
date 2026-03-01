@@ -3,7 +3,7 @@ const Projects = () => {
     <section id="projects" className="section projects">
       <div className="projects-inner">
       <div className="projects-header">
-        <h2 className="type-title matrix-hover">&gt; Explore my projects.</h2>
+        <h2>Explore my projects.</h2>
       </div>
         <div className="project-stack">
         <article className="project-card project-row">

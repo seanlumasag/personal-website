@@ -5,8 +5,8 @@ A fast, minimal portfolio site that highlights backend-focused software engineer
 ## Highlights
 - Terminal-inspired hero and profile card with contact + resume links.
 - Projects and experience sections built as reusable cards.
-- Animated type and matrix-scramble hover effects with reduced-motion support.
-- Scroll-based reveal animations and a parallax dotted background.
+- Animated type effects with reduced-motion support.
+- Scroll-based reveal animations.
 - Responsive layout with a persistent side nav for quick section jumps.
 
 ## Tech Stack

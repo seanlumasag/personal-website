@@ -3,7 +3,7 @@ const Skills = () => {
     <section id="skills" className="section skills">
       <div className="skills-inner">
         <div className="projects-header">
-          <h2 className="type-title matrix-hover">&gt; My technical skills</h2>
+          <h2>My technical skills</h2>
         </div>
         <div className="skills-rows">
           <article className="skills-row">
