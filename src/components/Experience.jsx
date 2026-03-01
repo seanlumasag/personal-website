@@ -6,15 +6,7 @@ const Experience = () => {
           <h2>View my experience.</h2>
         </div>
         <div className="project-stack">
-          <article className="project-card project-row">
-            <div className="project-media project-media--logo">
-              <img
-                src="/datastorytelling.png"
-                alt="Data Storytelling experience preview"
-                className="project-media-image project-media-image--logo"
-                loading="lazy"
-              />
-            </div>
+          <article className="project-card">
             <div className="project-content">
               <h3>Software Engineer Intern</h3>
               <p className="experience-org">
@@ -32,15 +24,7 @@ const Experience = () => {
               </ul>
             </div>
           </article>
-          <article className="project-card project-row">
-            <div className="project-media project-media--logo">
-              <img
-                src="/hadoop.png"
-                alt="Hadoop Express experience preview"
-                className="project-media-image project-media-image--logo"
-                loading="lazy"
-              />
-            </div>
+          <article className="project-card">
             <div className="project-content">
               <h3>Coding Instructor</h3>
               <p className="experience-org">

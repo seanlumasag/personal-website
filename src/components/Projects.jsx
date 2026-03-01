@@ -6,15 +6,7 @@ const Projects = () => {
         <h2>Explore my projects.</h2>
       </div>
         <div className="project-stack">
-        <article className="project-card project-row">
-            <div className="project-media">
-              <img
-                src="/livechat.png"
-                alt="Live Messaging App interface preview"
-                className="project-media-image project-media-image--livechat"
-                loading="lazy"
-              />
-            </div>
+        <article className="project-card">
             <div className="project-content">
               <h3>Live Messaging App</h3>
               <p>
@@ -50,15 +42,7 @@ const Projects = () => {
             </div>
           </article>
 
-        <article className="project-card project-row">
-            <div className="project-media">
-              <img
-                src="/jobtrack.png"
-                alt="Job Application Tracker dashboard preview"
-                className="project-media-image project-media-image--jobtrack"
-                loading="lazy"
-              />
-            </div>
+        <article className="project-card">
             <div className="project-content">
               <h3>Job Application Tracker</h3>
               <p>
@@ -94,15 +78,7 @@ const Projects = () => {
             </div>
           </article>
 
-        <article className="project-card project-row">
-            <div className="project-media">
-              <img
-                src="/apigateway.png"
-                alt="API Gateway service visualization"
-                className="project-media-image project-media-image--apigateway"
-                loading="lazy"
-              />
-            </div>
+        <article className="project-card">
             <div className="project-content">
               <h3>API Gateway</h3>
               <p>

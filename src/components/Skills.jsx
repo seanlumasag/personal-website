@@ -190,7 +190,7 @@ const Skills = () => {
               <div className="skills-item">
                 <span className="skills-icon" aria-hidden="true">
                   <img
-                    src="https://images.icon-icons.com/3915/SVG/supabase_logo_icon_249481.svg"
+                    src="https://api.iconify.design/devicon/supabase.svg"
                     alt=""
                     loading="lazy"
                     decoding="async"
