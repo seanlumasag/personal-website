@@ -600,8 +600,9 @@
 @media (max-width: 700px) {
   .footer-inner {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     transform: none;
+    text-align: center;
   }
 }
 
@@ -681,8 +682,21 @@
 }
 
 @media (max-width: 900px) {
-  .page {
+  .top-nav-inner {
+    justify-content: flex-end;
+  }
+
+  .hero {
+    text-align: left;
+  }
+
+  .hero .lead-block {
     margin: 0;
+    text-align: left;
+  }
+
+  .page {
+    margin: 0 auto;
     padding: 4rem 1.5rem 5rem;
     transform: none;
   }
@@ -691,6 +705,12 @@
   .skills {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .projects-inner,
+  .skills-inner {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 .list,
